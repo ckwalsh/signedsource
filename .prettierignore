@@ -1,0 +1,5 @@
+# Stop messing with the comments in my tsconfig
+tsconfig.json
+
+# Ignore build artifacts
+dist

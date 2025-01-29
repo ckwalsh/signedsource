@@ -4,7 +4,8 @@
   "description": "Utilities to sign and verify generated and partially generated files. Inspired by Meta's signedsource package.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.ts",
+    "typecheck": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/ckwalsh/signedsource-ts/issues"
   },
-  "homepage": "https://github.com/ckwalsh/signedsource-ts#readme"
+  "homepage": "https://github.com/ckwalsh/signedsource-ts#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "tsup": "^8.3.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.22.0"
+  }
 }
