@@ -1,8 +1,18 @@
 {
-  "name": "signedsource-ts",
+  "name": "@ckwalsh/signedsource-ts",
   "version": "0.0.0",
   "description": "Utilities to sign and verify generated and partially generated files. Inspired by Meta's signedsource package.",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
   "scripts": {
     "build": "tsup src/index.ts",
     "test": "vitest",
