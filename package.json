@@ -1,0 +1,19 @@
+{
+  "name": "signedsource-ts",
+  "version": "0.0.0",
+  "description": "Utilities to sign and verify generated and partially generated files. Inspired by Meta's signedsource package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckwalsh/signedsource-ts.git"
+  },
+  "author": "Cullen Walsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckwalsh/signedsource-ts/issues"
+  },
+  "homepage": "https://github.com/ckwalsh/signedsource-ts#readme"
+}
