@@ -11,5 +11,6 @@ jobs:
       - run: |
           npm ci
           npm run typecheck
-          npm run build
           npm test
+          npm run build
+          npx attw --pack .
