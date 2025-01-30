@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) Cullen Walsh
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 export const GENERATED_TAG = '@' + 'generated';
 export const PARTIALLY_GENERATED_TAG = '@' + 'partially-generated';
 export const TOKEN = '<<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>>';
