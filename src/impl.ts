@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) Cullen Walsh
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 import {
   BEGIN_MANUAL_SECTION_PATTERN,
   BEGIN_MANUAL_SECTION_TOKEN,
@@ -69,8 +76,8 @@ export function parseContent(data: string): Content {
 
   generated = true;
 
-  const unsignedTokenMatch = data.match(UNSIGNED_TOKEN_PATTERN);
-  const signedTokenMatch = unsignedTokenMatch === null ? data.match(SIGNED_TOKEN_PATTERN) : null;
+  const signedTokenMatch = data.match(SIGNED_TOKEN_PATTERN);
+  const unsignedTokenMatch = signedTokenMatch === null ? data.match(UNSIGNED_TOKEN_PATTERN) : null;
 
   if (unsignedTokenMatch === null) {
     if (signedTokenMatch === null) {
