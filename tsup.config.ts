@@ -8,7 +8,7 @@
 import { defineConfig } from 'tsup';
 
 export default defineConfig({
-  entry: ['src/index.ts', 'src/bin/signedsource.ts'],
+  entry: ['lib/index.ts', 'bin/signedsource.ts'],
   clean: true,
   dts: true,
   sourcemap: true,

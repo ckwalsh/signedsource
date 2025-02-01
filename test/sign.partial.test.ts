@@ -6,9 +6,9 @@
  */
 
 import { expect, test } from 'vitest';
-import { BEGIN_MANUAL_SECTION_TOKEN, END_MANUAL_SECTION_TOKEN, PARTIALLY_GENERATED_TOKEN } from './strings';
-import { TokenNotFoundError } from './errors';
-import signCode from './sign';
+import { BEGIN_MANUAL_SECTION_TOKEN, END_MANUAL_SECTION_TOKEN, PARTIALLY_GENERATED_TOKEN } from '../lib/strings';
+import { TokenNotFoundError } from '../lib/errors';
+import signCode from '../lib/sign';
 
 test('Simple', () => {
   const unsigned = PARTIALLY_GENERATED_TOKEN;
