@@ -1,6 +1,6 @@
 # @ckwalsh/signedsource
 
-[![build-and-test](https://github.com/ckwalsh/signedsource/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/ckwalsh/signedsource/actions/workflows/build-and-test.yml)
+[![main](https://github.com/ckwalsh/signedsource/actions/workflows/main.yml/badge.svg)](https://github.com/ckwalsh/signedsource/actions/workflows/main.yml)
 
 This library can be used to sign generated code and detect if that code has been accidentally modified.
 
