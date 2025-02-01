@@ -1,0 +1,21 @@
+name: Build and Test
+on: [workflow_call]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build-and-test:
+    runs-on: homelab
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['*', 'lts/*', 'lts/-1', 'lts/-2']
+    name: Test on Node ${{ matrix.node-version }}
+    steps:
+      - run: echo "event name is:" ${{ github.event_name }}
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/setup
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: ./.github/actions/test
+      - uses: ./.github/actions/build
