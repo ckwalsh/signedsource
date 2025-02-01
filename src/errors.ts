@@ -30,7 +30,10 @@ export class TokenNotFoundError extends SignedSourceParseError {
 }
 
 export class MismatchedManualSectionTokensError extends SignedSourceParseError {
+  fieldName: string;
+
   constructor(fieldName: string) {
     super(`Failed to find ending token for manual section '${fieldName}' in partially generated data`);
+    this.fieldName = fieldName;
   }
 }
