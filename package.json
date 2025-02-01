@@ -21,10 +21,14 @@
     "README.md",
     "LICENSE"
   ],
+  "bin": {
+    "signedsource": "./dist/bin/signedsource.js"
+  },
   "scripts": {
-    "build": "tsup src/index.ts",
+    "build": "tsup",
     "lint": "eslint",
     "lint-fix": "eslint --fix",
+    "signedsource": "signedsource src/index.ts",
     "test": "vitest",
     "typecheck": "tsc"
   },
@@ -41,7 +45,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.3",
     "@eslint/js": "^9.19.0",
-    "@types/node": "^22.12.0",
+    "@types/node": "^22.13.0",
     "eslint": "^9.19.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-license-header": "^0.6.1",
