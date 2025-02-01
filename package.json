@@ -28,7 +28,7 @@
   "types": "./dist/lib/index.d.ts",
   "main": "./dist/lib/index.cjs",
   "bin": {
-    "signedsource": "./dist/bin/signedsource.js"
+    "signedsource": "dist/bin/signedsource.js"
   },
   "directories": {
     "lib": "dist/lib"
