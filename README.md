@@ -66,7 +66,7 @@ return 'lemonade';
 const signedCode = signCode(generatedCode);
 
 verifyCode(signedCode); // === true
-verifyCode(signedCode.replace('pizza', 'salad')); // === true
+verifyCode(signedCode.replace('pizza', 'hamburgers')); // === true
 ```
 
 Partially generated code can also be updated while preserving the contents of the defined fields. Continuing the example from before:
@@ -94,7 +94,7 @@ return 'dog';
 // END MANUAL SECTION
 `;
 
-const updatedSignedCode = signCode(updatedCode, signedCode);
+const updatedSignedCode = signCode(newGeneratedCode, signedCode);
 
 verifyCode(updatedSignedCode); // === true
 
