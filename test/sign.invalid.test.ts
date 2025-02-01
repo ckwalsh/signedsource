@@ -6,8 +6,8 @@
  */
 
 import { expect, test } from 'vitest';
-import { GeneratedTagNotFoundError } from './errors';
-import signCode from './sign';
+import { GeneratedTagNotFoundError } from '../lib/errors';
+import signCode from '../lib/sign';
 
 test('Token only', () => {
   const unsigned = '<<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>>';

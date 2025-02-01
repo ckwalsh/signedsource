@@ -6,9 +6,9 @@
  */
 
 import { expect, test } from 'vitest';
-import { GENERATED_TOKEN } from './strings';
-import { TokenNotFoundError } from './errors';
-import signCode from './sign';
+import { GENERATED_TOKEN } from '../lib/strings';
+import { TokenNotFoundError } from '../lib/errors';
+import signCode from '../lib/sign';
 
 test('Simple', () => {
   const unsigned = GENERATED_TOKEN;

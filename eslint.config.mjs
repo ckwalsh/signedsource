@@ -30,7 +30,7 @@ export default tseslint.config(
         },
       ],
     },
-    ignores: ['src/bin/*'],
+    ignores: ['bin/*'],
   },
   eslint.configs.recommended,
   tseslint.configs.strict,

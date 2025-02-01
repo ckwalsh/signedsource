@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { signCode, verifyCode } from '../index.js';
+import { signCode, verifyCode } from '../lib/index.js';
 import fs from 'fs';
 
 const args = process.argv.slice(2);
