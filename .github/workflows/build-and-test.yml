@@ -11,10 +11,11 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 'lts/*'
       - run: |
           npm ci
           npm run typecheck
-          npm test
+          npm run lint
+          npm run test
           npm run build
           npx attw --pack .
