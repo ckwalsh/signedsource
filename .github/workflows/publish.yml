@@ -1,0 +1,26 @@
+name: Publish package to GitHub Packages
+on:
+  release:
+    types: [published]
+jobs:
+  build:
+    runs-on: homelab
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts
+          registry-url: 'https://npm.pkg.github.com'
+      - run: |
+          npm ci
+          npm run typecheck
+          npm run lint
+          npm run test
+          npm run build
+          npx attw --pack .
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
