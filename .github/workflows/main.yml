@@ -1,0 +1,22 @@
+name: 'Test PR'
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: homelab
+    strategy:
+      matrix:
+        node-version: ['*', 'lts/*', 'lts/-1', 'lts/-2', 'lts/-3']
+    name: Test on Node ${{ matrix.node-version }}
+    steps:
+      - uses: ./.github/actions/setup.yml
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: ./.github/actions/test.yml
+      - uses: ./.github/actions/build.yml

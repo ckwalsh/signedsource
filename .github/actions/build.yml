@@ -1,0 +1,9 @@
+name: 'Build'
+description: 'Compile to typescript and verify typescript definitions'
+runs:
+  using: 'composite'
+  steps:
+    - name: Compile to JavaScript
+      run: npm run build
+    - name: Verify generated Typescript definitions
+      run: npx attw --pack .
