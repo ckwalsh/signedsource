@@ -8,6 +8,12 @@
 import { GeneratedTagNotFoundError, UnsignedDataError } from './errors';
 import { hash, parseContent } from './impl';
 
+/**
+ * Verifies that the generated code has not been modified since it was signed.
+ *
+ * @param signedData The signed code to verify the signature of.
+ * @returns true if the embedded signature is valid, false otherwise.
+ */
 export default function verifyCode(signedData: string): boolean {
   const content = parseContent(signedData);
   if (!content.generated) {
