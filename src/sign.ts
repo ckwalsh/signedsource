@@ -9,6 +9,19 @@ import { getSignatureToken, parseContent } from './impl';
 import { GeneratedTagNotFoundError } from './errors';
 import { TOKEN } from './strings';
 
+/**
+ * Sign the given generated code, already containing a signature token, to
+ * prevent accidental modification.
+ *
+ * @param unsignedData The unsigned code to sign. It is expected either the
+ * `GENERATED_TOKEN` or `PARTIALLY_GENERATED_TOKEN` constant will be present.
+ * @param oldData When signing a partially generated file, the old data to
+ * extract manual section contents from.
+ * @param forceManualOldData If oldData is provided but contains an invalid
+ * signature, whether to attempt to proceed and potentially loose desireable
+ * manual modifications.
+ * @returns The signed code.
+ */
 export default function signCode(unsignedData: string, oldData?: string, forceManualOldData?: boolean): string {
   const { data: normalizedData, generated, partial, fields } = parseContent(unsignedData);
 
