@@ -3,24 +3,18 @@ on:
   release:
     types: [published]
 jobs:
-  build:
+  github:
     runs-on: homelab
     permissions:
       contents: read
       packages: write
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: ./.github/actions/setup
         with:
-          node-version: 'lts/*'
           registry-url: 'https://npm.pkg.github.com'
-      - run: |
-          npm ci
-          npm run typecheck
-          npm run lint
-          npm run test
-          npm run build
-          npx attw --pack .
-      - run: npm publish
+      - uses: ./.github/actions/build.yml
+      - name: Publish to GitHub Packages
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

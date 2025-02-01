@@ -1,0 +1,14 @@
+name: 'Test'
+description: 'Run typechecking / lint / tests / verify typescript definitions'
+runs:
+  using: 'composite'
+  steps:
+    - name: Typecheck
+      run: npm run typecheck
+      shell: bash
+    - name: Lint
+      run: npm run lint
+      shell: bash
+    - name: Test
+      run: npm test
+      shell: bash
