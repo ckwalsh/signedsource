@@ -21,10 +21,14 @@
     "README.md",
     "LICENSE"
   ],
+  "bin": {
+    "signedsource": "./dist/bin/signedsource.js"
+  },
   "scripts": {
-    "build": "tsup src/index.ts",
+    "build": "tsup",
     "lint": "eslint",
     "lint-fix": "eslint --fix",
+    "signedsource": "signedsource src/index.ts",
     "test": "vitest",
     "typecheck": "tsc"
   },
