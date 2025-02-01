@@ -1,24 +1,9 @@
-name: 'Test PR'
+name: main
 on:
   push:
     branches:
       - main
-  pull_request:
-    types: [opened, synchronize, reopened]
-    branches:
-      - main
 jobs:
-  test:
-    runs-on: homelab
-    strategy:
-      fail-fast: false
-      matrix:
-        node-version: ['*', 'lts/*', 'lts/-1', 'lts/-2']
-    name: Test on Node ${{ matrix.node-version }}
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/actions/setup
-        with:
-          node-version: ${{ matrix.node-version }}
-      - uses: ./.github/actions/test
-      - uses: ./.github/actions/build
+  build-and-test:
+    name: Build and Test
+    uses: ./.github/workflows/build-and-test.yml
