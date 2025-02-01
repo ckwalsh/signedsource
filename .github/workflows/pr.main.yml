@@ -1,6 +1,7 @@
-name: main
+name: PR for main
 on:
-  push:
+  pull_request:
+    types: [opened, synchronize, reopened]
     branches:
       - main
 jobs:
