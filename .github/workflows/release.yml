@@ -3,7 +3,7 @@ on:
   release:
     types: [published]
 jobs:
-  github:
+  npm:
     runs-on: homelab
     environment: release
     permissions:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
-      - uses: ./.github/actions/build.yml
+      - uses: ./.github/actions/build
       - name: Publish to NPM
         run: npm publish
         env:
