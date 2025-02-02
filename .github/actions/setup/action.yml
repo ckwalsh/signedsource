@@ -6,11 +6,6 @@ inputs:
     type: string
     required: true
     default: 'lts/*'
-  registry-url:
-    description: 'URL of the npm registry to use'
-    type: string
-    required: false
-    default: 'https://registry.npmjs.org'
 runs:
   using: 'composite'
   steps:
