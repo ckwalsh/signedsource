@@ -1,20 +1,18 @@
-name: Publish package to GitHub Packages
+name: Publish packages for release
 on:
   release:
     types: [published]
 jobs:
   github:
     runs-on: homelab
+    environment: release
     permissions:
       contents: read
-      packages: write
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
-        with:
-          registry-url: 'https://npm.pkg.github.com'
       - uses: ./.github/actions/build.yml
-      - name: Publish to GitHub Packages
+      - name: Publish to NPM
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
