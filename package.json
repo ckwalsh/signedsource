@@ -2,9 +2,9 @@
   "name": "@ckwalsh/signedsource",
   "version": "0.1.1",
   "description": "Library and cli to sign and verify generated code. Inspired by Meta's signedsource package.",
-  "homepage": "https://github.com/ckwalsh/signedsource-ts#readme",
+  "homepage": "https://github.com/ckwalsh/signedsource#readme",
   "bugs": {
-    "url": "https://github.com/ckwalsh/signedsource-ts/issues"
+    "url": "https://github.com/ckwalsh/signedsource/issues"
   },
   "license": "MIT",
   "author": "Cullen Walsh",
