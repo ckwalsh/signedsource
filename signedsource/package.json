@@ -1,0 +1,69 @@
+{
+  "name": "@ckwalsh/signedsource",
+  "version": "0.2.0",
+  "description": "Library and cli to sign and verify generated code. Based on Meta's signedsource package.",
+  "homepage": "https://github.com/ckwalsh/signedsource/signedsource#readme",
+  "bugs": {
+    "url": "https://github.com/ckwalsh/signedsource/issues"
+  },
+  "license": "MIT",
+  "author": "Cullen Walsh",
+  "files": [
+    "dist",
+    "full",
+    "partial",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "require": "./dist/index.cjs"
+      }
+    },
+    "./full": {
+      "import": {
+        "types": "./dist/full/index.d.ts",
+        "import": "./dist/full/index.js"
+      },
+      "require": {
+        "types": "./dist/full/index.d.cts",
+        "require": "./dist/full/index.cjs"
+      }
+    },
+    "./partial": {
+      "import": {
+        "types": "./dist/partial/index.d.ts",
+        "import": "./dist/partial/index.js"
+      },
+      "require": {
+        "types": "./dist/partial/index.d.cts",
+        "require": "./dist/partial/index.cjs"
+      }
+    }
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "directories": {
+    "lib": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckwalsh/signedsource.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "terser": "^5.39.0",
+    "tsup": "^8.4.0"
+  }
+}

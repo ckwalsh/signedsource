@@ -1,0 +1,4 @@
+{
+  "main": "../dist/partial/index.cjs",
+  "types": "../dist/partial/index.d.ts"
+}
