@@ -16,7 +16,7 @@ export interface PartiallySignedSource {
   signature: string;
 }
 
-const BEGIN_MANUAL_SECTION_PATTERN = /BEGIN MANUAL SECTION ([0-9a-zA-Z_-]+)/y;
+const BEGIN_MANUAL_SECTION_PATTERN = /BEGIN MANUAL SECTION ([0-9a-zA-Z_-]+)/g;
 
 export function parsePartiallySignedSource(source: string): PartiallySignedSource {
   const signedChunks: string[] = [];
@@ -25,7 +25,7 @@ export function parsePartiallySignedSource(source: string): PartiallySignedSourc
   const hash = signatureHash();
 
   let signedChunkStartIdx = 0;
-  BEGIN_MANUAL_SECTION_PATTERN.lastIndex = 0;
+  BEGIN_MANUAL_SECTION_PATTERN.lastIndex = -1;
   let manualSectionBeginMatch = BEGIN_MANUAL_SECTION_PATTERN.exec(source);
 
   while (manualSectionBeginMatch !== null) {
@@ -49,6 +49,7 @@ export function parsePartiallySignedSource(source: string): PartiallySignedSourc
 
   const signedChunk = source.slice(signedChunkStartIdx);
   signedChunks.push(signedChunk);
+  hash.update(signedChunk);
   const signature = getSignatureToken(hash);
 
   return {

@@ -5,6 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export * from './auto/index.js';
-export * as full from './full/index.js';
-export * as partial from './partial/index.js';
+export * from './api.js';
+export * from '../constants.js';
+export * from '../errors.js';

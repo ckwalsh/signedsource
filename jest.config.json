@@ -1,0 +1,18 @@
+{
+  "preset": "ts-jest/presets/default-esm",
+  "transform": {
+    "^.+\\.tsx?$": [
+      "ts-jest",
+      {
+        "useESM": true,
+        "tsconfig": {
+          "target": "esnext",
+          "module": "esnext"
+        }
+      }
+    ]
+  },
+  "moduleNameMapper": {
+    "(.+)\\.js": "$1"
+  }
+}

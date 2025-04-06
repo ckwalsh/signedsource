@@ -7,12 +7,12 @@
 
 import { defineConfig } from 'tsup';
 
-export default defineConfig({
-  entry: ['lib/index.ts', 'lib/full/index.ts', 'lib/partial/index.ts'],
+const config = defineConfig({
   outDir: 'dist',
-  minify: 'terser',
   clean: true,
   dts: true,
   sourcemap: true,
   format: ['cjs', 'esm'],
 });
+
+export default config;

@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export * from './auto/index.js';
-export * as full from './full/index.js';
-export * as partial from './partial/index.js';
+import { defineTests } from './util.js';
+import * as api from '../index.js';
+
+defineTests(api);

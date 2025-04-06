@@ -1,0 +1,13 @@
+/**
+ * @partially-generated SignedSource<<574977ffb1fecca35433be11debdd8bd>>
+ */
+
+Signed Content
+
+// BEGIN MANUAL SECTION foo
+
+Apple Pie is better than Pumpkin Pie
+
+// END MANUAL SECTION
+
+More Signed Content

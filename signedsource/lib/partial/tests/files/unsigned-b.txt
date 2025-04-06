@@ -1,0 +1,13 @@
+/**
+ * @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>>
+ */
+
+Different Signed Content
+
+// BEGIN MANUAL SECTION foo
+
+Cats rule, Dogs drool!
+
+// END MANUAL SECTION
+
+More Different Signed Content

@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import * as full from './full/index.js';
-import * as partial from './partial/index.js';
-import { MissingSignaturePlaceholderError } from './errors.js';
+import * as full from '../full/index.js';
+import * as partial from '../partial/index.js';
+import { MissingSignaturePlaceholderError } from '../errors.js';
 
 export function signSource(source: string, oldSource?: string): string {
   if (source.includes(full.GENERATED_TAG)) {

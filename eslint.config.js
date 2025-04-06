@@ -1,13 +1,20 @@
-import { defineConfig } from "eslint/config";
-import globals from "globals";
-import eslint from "@eslint/js";
-import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
-import licenseHeaderPlugin from "eslint-plugin-license-header";
-import tseslint from "typescript-eslint";
+/*
+ * Copyright (c) Cullen Walsh
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+import { defineConfig } from 'eslint/config';
+import globals from 'globals';
+import eslint from '@eslint/js';
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import licenseHeaderPlugin from 'eslint-plugin-license-header';
+import tseslint from 'typescript-eslint';
 
 export default defineConfig([
-  { files: ["**/*.ts"] },
-  { ignores: ["**/dist/"] },
+  { files: ['**/*.ts'] },
+  { ignores: ['**/dist/', 'eslint.config.js'] },
   {
     languageOptions: { globals: globals.node },
   },
@@ -23,39 +30,39 @@ export default defineConfig([
   },
   tseslint.configs.stylisticTypeChecked,
   {
-    ignores: ["**/*generated*"],
+    ignores: ['**/*generated*'],
     plugins: {
-      "license-header": licenseHeaderPlugin,
+      'license-header': licenseHeaderPlugin,
     },
     rules: {
-      "license-header/header": [
-        "error",
+      'license-header/header': [
+        'error',
         [
-          "/*",
-          " * Copyright (c) Cullen Walsh",
-          " *",
-          " * This source code is licensed under the MIT license found in the",
-          " * LICENSE file in the root directory of this source tree.",
-          " */",
+          '/*',
+          ' * Copyright (c) Cullen Walsh',
+          ' *',
+          ' * This source code is licensed under the MIT license found in the',
+          ' * LICENSE file in the root directory of this source tree.',
+          ' */',
         ],
       ],
     },
   },
   {
     rules: {
-      "no-duplicate-imports": "error",
-      "no-unused-vars": [
-        "error",
+      'no-duplicate-imports': 'error',
+      '@typescript-eslint/no-unused-vars': [
+        'error',
         {
-          argsIgnorePattern: "^_",
-          caughtErrorsIgnorePattern: "^_",
-          destructuredArrayIgnorePattern: "^_",
-          varsIgnorePattern: "^_",
+          argsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
+          destructuredArrayIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
           ignoreRestSiblings: true,
         },
       ],
-      "sort-imports": [
-        "error",
+      'sort-imports': [
+        'error',
         {
           ignoreCase: true,
           ignoreDeclarationSort: true,

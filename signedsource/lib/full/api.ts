@@ -13,7 +13,7 @@ import { unsignSource } from '../unsign.js';
 export function signSource(source: string): string {
   const unsignedSource = unsignSource(source);
 
-  const signature = getSignatureToken(source);
+  const signature = getSignatureToken(unsignedSource.source);
 
   return unsignedSource.source.replace(UNSIGNED_PLACEHOLDER, signature);
 }
