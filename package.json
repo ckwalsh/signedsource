@@ -2,6 +2,9 @@
   "name": "@ckwalsh/signedsource-root",
   "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "ci:attw": "pnpm run -r attw",
     "ci:build": "pnpm run -r build",
