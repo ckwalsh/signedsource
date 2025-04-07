@@ -11,7 +11,7 @@ import { Cli } from 'clipanion';
 import * as path from 'path';
 import pkg from '../package.json' with { type: 'json' };
 
-import { SignCommand } from '../lib/index.js';
+import { SignCommand } from '../src/index.js';
 
 const [_node, app, ...args] = process.argv;
 

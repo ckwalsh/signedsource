@@ -60,9 +60,10 @@
     "directory": "signedsource"
   },
   "scripts": {
-    "attw": "attw --pack .",
-    "build": "tsup --config ../tsup.config.ts lib/index.ts lib/full/index.ts lib/partial/index.ts",
-    "test": "node --no-warnings --experimental-vm-modules ../node_modules/jest/bin/jest.js --config ../jest.config.json"
+    "attw": "pnpm pack --out attw.tgz && attw attw.tgz; rm -f attw.tgz",
+    "build": "tsup --config ../tsup.config.ts src/index.ts src/full/index.ts src/partial/index.ts",
+    "prepack": "pnpm run build",
+    "test": "node --no-warnings --experimental-vm-modules ../../node_modules/jest/bin/jest.js --config ../../jest.config.json ./packages/cli"
   },
   "devDependencies": {
     "@jest/globals": "catalog:"

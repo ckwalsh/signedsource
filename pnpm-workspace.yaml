@@ -1,10 +1,11 @@
 packages:
-  - signedsource
-  - signedsource-cli
+  - packages/*
+
 catalog:
   jest: "^29.7.0"
   "@jest/globals": "^29.7.0"
 
 requiredScripts:
+  - attw
   - build
   - test
