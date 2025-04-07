@@ -1,0 +1,61 @@
+{
+  "name": "@ckwalsh/signedsource-cli",
+  "version": "0.2.0",
+  "description": "CLI to sign and verify generated code. Based on Meta's signedsource package.",
+  "homepage": "https://github.com/ckwalsh/signedsource/signedsource-cli#readme",
+  "bugs": {
+    "url": "https://github.com/ckwalsh/signedsource/issues"
+  },
+  "license": "MIT",
+  "author": "Cullen Walsh",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "signedsource": "dist/bin/signedsource.cjs"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/lib/index.d.ts",
+        "import": "./dist/lib/index.js"
+      },
+      "require": {
+        "types": "./dist/lib/index.d.cts",
+        "require": "./dist/lib/index.cjs"
+      }
+    }
+  },
+  "module": "./dist/lib/index.js",
+  "types": "./dist/lib/index.d.ts",
+  "main": "./dist/lib/index.cjs",
+  "directories": {
+    "lib": "dist/lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckwalsh/signedsource",
+    "directory": "signedsource-cli"
+  },
+  "scripts": {
+    "attw": "attw --pack .",
+    "build": "tsup --config ../tsup.config.ts lib/index.ts bin/signedsource.ts",
+    "test": "node --no-warnings --experimental-vm-modules ../node_modules/jest/bin/jest.js --config ../jest.config.json"
+  },
+  "devDependencies": {
+    "@jest/globals": "catalog:"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "onFail": "error"
+    }
+  },
+  "dependencies": {
+    "@ckwalsh/signedsource": "workspace:*",
+    "clipanion": "4.0.0-rc.4"
+  }
+}

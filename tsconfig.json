@@ -3,6 +3,7 @@
   "include": ["**/*.ts"],
   "compilerOptions": {
     "noEmit": true,
-    "strict": true
+    "strict": true,
+    "resolveJsonModule": true
   }
 }
