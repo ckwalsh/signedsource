@@ -1,0 +1,33 @@
+name: Build and Test
+
+on: [workflow_call]
+
+jobs:
+  build-and-test:
+    name: Test on Node ${{ matrix.node-version }}
+
+    permissions:
+      contents: read
+
+    runs-on: homelab
+
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['*', 'lts/*', 'lts/-1', 'lts/-2']
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup checkout
+        uses: ./.github/actions/setup
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - uses: ./.github/actions/test
+
+      - uses: ./.github/actions/build
