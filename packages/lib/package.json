@@ -1,8 +1,8 @@
 {
   "name": "@ckwalsh/signedsource",
   "version": "0.2.0",
-  "description": "Library to sign and verify generated code. Based on Meta's signedsource package.",
-  "homepage": "https://github.com/ckwalsh/signedsource/signedsource#readme",
+  "description": "Library to sign and verify generated code, based on Meta's signedsource package",
+  "homepage": "https://github.com/ckwalsh/signedsource/packages/lib#readme",
   "bugs": {
     "url": "https://github.com/ckwalsh/signedsource/issues"
   },
@@ -57,13 +57,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ckwalsh/signedsource",
-    "directory": "signedsource"
+    "directory": "packages/lib"
   },
   "scripts": {
     "attw": "pnpm pack --out attw.tgz && attw attw.tgz; rm -f attw.tgz",
     "build": "tsup --config ../tsup.config.ts src/index.ts src/full/index.ts src/partial/index.ts",
     "prepack": "pnpm run build",
-    "test": "node --no-warnings --experimental-vm-modules ../../node_modules/jest/bin/jest.js --config ../../jest.config.json ./packages/cli"
+    "readme": "echo '{}' | pnpx mustache -p ../examples/src/simple.ts -p ../examples/src/full.ts -p ../examples/src/partial.ts - README.md.mustache > README.md",
+    "test": "node --no-warnings --experimental-vm-modules ../../node_modules/jest/bin/jest.js --config ../../jest.config.json ./packages/lib"
   },
   "devDependencies": {
     "@jest/globals": "catalog:"

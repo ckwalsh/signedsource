@@ -1,8 +1,8 @@
 {
   "name": "@ckwalsh/signedsource-cli",
   "version": "0.2.0",
-  "description": "CLI to sign and verify generated code. Based on Meta's signedsource package.",
-  "homepage": "https://github.com/ckwalsh/signedsource/signedsource-cli#readme",
+  "description": "CLI to sign and verify generated code, based on Meta's signedsource package",
+  "homepage": "https://github.com/ckwalsh/signedsource/packages/cli#readme",
   "bugs": {
     "url": "https://github.com/ckwalsh/signedsource/issues"
   },
@@ -38,7 +38,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ckwalsh/signedsource",
-    "directory": "signedsource-cli"
+    "directory": "packages/cli"
   },
   "scripts": {
     "attw": "pnpm pack --out attw.tgz && attw attw.tgz; rm -f attw.tgz",

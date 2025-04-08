@@ -6,5 +6,9 @@
  */
 
 export * from './auto/index.js';
-export * as full from './full/index.js';
-export * as partial from './partial/index.js';
+export { GENERATED_TOKEN } from './full/constants.js';
+export {
+  GENERATED_TOKEN as PARTIALLY_GENERATED_TOKEN,
+  BEGIN_MANUAL_SECTION_TOKEN,
+  END_MANUAL_SECTION_TOKEN,
+} from './partial/constants.js';
