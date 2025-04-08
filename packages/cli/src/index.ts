@@ -6,3 +6,4 @@
  */
 
 export { SignCommand } from './sign.js';
+export { VerifyCommand } from './verify.js';

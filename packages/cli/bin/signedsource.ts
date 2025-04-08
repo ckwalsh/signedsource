@@ -11,7 +11,7 @@ import { Cli } from 'clipanion';
 import * as path from 'path';
 import pkg from '../package.json' with { type: 'json' };
 
-import { SignCommand } from '../src/index.js';
+import { SignCommand, VerifyCommand } from '../src/index.js';
 
 const [_node, app, ...args] = process.argv;
 
@@ -21,5 +21,6 @@ const cli = new Cli({
 });
 
 cli.register(SignCommand);
+cli.register(VerifyCommand);
 
 void cli.runExit(args);
