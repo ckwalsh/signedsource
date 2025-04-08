@@ -7,7 +7,9 @@
 
 import { readFile } from 'fs/promises';
 import { Command, Option } from 'clipanion';
-import { verifySignedSource } from '@ckwalsh/signedsource';
+import 'colors';
+
+import { UnsignedDataError, verifySignedSource } from '@ckwalsh/signedsource';
 
 export class VerifyCommand extends Command {
   static paths = [['verify']];
@@ -17,16 +19,24 @@ export class VerifyCommand extends Command {
   async execute() {
     const signed = await readFile(this.file, 'utf-8');
 
-    if (verifySignedSource(signed)) {
-      if (!this.quiet) {
-        this.context.stdout.write('Signature is Valid');
-      }
-    } else {
-      if (!this.quiet) {
-        this.context.stdout.write('Invalid signature');
-      }
+    try {
+      if (verifySignedSource(signed)) {
+        if (!this.quiet) {
+          this.context.stdout.write(`Signature valid for ${this.file}\n`.green);
+        }
+      } else {
+        if (!this.quiet) {
+          this.context.stdout.write(`Invalid signature for ${this.file}\n`.red);
+        }
 
-      return 1;
+        return 1;
+      }
+    } catch (e) {
+      if (e instanceof UnsignedDataError) {
+        if (!this.quiet) {
+          this.context.stdout.write(`No signature found for ${this.file}\n`.yellow);
+        }
+      }
     }
   }
 }
