@@ -1,0 +1,27 @@
+name: "Setup"
+description: "Setup Node and install dependencies"
+
+inputs:
+  node-version:
+    description: "Version of Node to use"
+    required: true
+    default: "lts/*"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v4
+
+    - name: Setup node ${{ inputs.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ inputs.node-version }}
+        cache: "pnpm"
+
+    - name: Install dependencies
+      run: pnpm install
+      shell: bash
