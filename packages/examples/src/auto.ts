@@ -1,4 +1,4 @@
-import { strict as assert } from 'node:assert';
+import { strict as assert } from 'assert';
 import {
   BEGIN_MANUAL_SECTION_TOKEN,
   END_MANUAL_SECTION_TOKEN,

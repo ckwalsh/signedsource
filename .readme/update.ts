@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { access, readdir, readFile, stat, writeFile } from 'fs/promises';
+import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import Mustache from 'mustache';
@@ -20,6 +20,7 @@ interface PackageJsonStub {
   name: string;
   private?: boolean;
   description: string;
+  author: string;
   bin?: Record<string, string>;
 }
 
@@ -35,7 +36,7 @@ interface RelatedPackageView {
 }
 
 interface InstallerView {
-  name: string;
+  installerName: string;
   command: string;
   globalFlag: string;
   devFlag: string;
@@ -45,7 +46,7 @@ interface GlobalView {
   installers: InstallerView[];
   packages: RelatedPackageView[];
   examples: Record<string, unknown>;
-  license: string;
+  LICENSE: string;
   GENERATED_TOKEN: string;
 }
 
@@ -59,53 +60,49 @@ interface View extends GlobalView {
   };
 }
 
-async function genPkgs(pkgsRoot: string): Promise<PackageInfo[]> {
-  const pkgs: PackageInfo[] = [];
-  const files = await readdir(pkgsRoot);
+async function genPkgInfos(pkgsRoot: string): Promise<PackageInfo[]> {
+  const files = await fs.readdir(pkgsRoot);
 
-  await Promise.all(
+  return await Promise.all(
     files
       .filter((name) => name !== '.' && name !== '..')
-      .map(async (name) => {
-        const root = path.join(pkgsRoot, name);
-
-        const [stub, partials] = await Promise.all([
-          import(path.join(root, 'package.json'), { with: { type: 'json' } }) as Promise<PackageJsonStub>,
-          genPartialsForPkg(path.join(root, '.readme')),
-        ]);
-        const pkg: PackageInfo = {
-          root,
-          partials,
-          ...stub,
-        };
-
-        pkgs.push(pkg);
-      }),
+      .map(async (name) => await genPkgInfo(path.join(pkgsRoot, name))),
   );
+}
 
-  return pkgs;
+async function genPkgInfo(pkgRoot: string): Promise<PackageInfo> {
+  const [rawPkg, partials] = await Promise.all([
+    import(path.join(pkgRoot, 'package.json'), { with: { type: 'json' } }) as Promise<unknown>,
+    genPartialsForPkg(path.join(pkgRoot, '.readme')),
+  ]);
+
+  return {
+    ...(rawPkg as PackageJsonStub),
+    root: pkgRoot,
+    partials,
+  };
 }
 
 async function genPartialsForPkg(partialDir: string): Promise<Record<string, string>> {
   const partials: Record<string, string> = {
-    'usage.md': '*No usage information available*',
+    'usage.md': '*No usage information available*\n',
   };
   let exists = true;
   try {
-    await access(partialDir);
+    await fs.access(partialDir);
   } catch (_e) {
     exists = false;
   }
   if (!exists) {
     return partials;
   }
-  const files = await readdir(partialDir);
+  const files = await fs.readdir(partialDir);
 
   await Promise.all(
     files
       .filter((name) => name !== '.' && name !== '..')
       .map(async (name) => {
-        partials[name] = await readFile(path.join(partialDir, name), 'utf-8');
+        partials[name] = await fs.readFile(path.join(partialDir, name), 'utf-8');
       }),
   );
 
@@ -114,18 +111,18 @@ async function genPartialsForPkg(partialDir: string): Promise<Record<string, str
 
 async function genExamples(exampleRoot: string): Promise<Record<string, unknown>> {
   const examples: Record<string, unknown> = {};
-  const files = await readdir(exampleRoot);
+  const files = await fs.readdir(exampleRoot);
 
   await Promise.all(
     files
       .filter((name) => name !== '.' && name !== '..')
       .map(async (name) => {
         const filePath = path.join(exampleRoot, name);
-        const s = await stat(filePath);
+        const s = await fs.stat(filePath);
         if (s.isDirectory()) {
           examples[name] = await genExamples(filePath);
         } else {
-          let v: unknown = await readFile(filePath, 'utf-8');
+          let v: unknown = await fs.readFile(filePath, 'utf-8');
           const nameParts: string[] = name.split('.').reverse();
           const k: string = nameParts.pop() ?? name;
           for (const part of nameParts) {
@@ -139,7 +136,7 @@ async function genExamples(exampleRoot: string): Promise<Record<string, unknown>
   return examples;
 }
 
-async function genGlobalView(pkgRoot: string, pkgs: PackageJsonStub[]): Promise<GlobalView> {
+async function genGlobalView(rootPkg: PackageInfo, pkgs: PackageInfo[], examplesRoot: string): Promise<GlobalView> {
   const packages: RelatedPackageView[] = pkgs
     .filter((pkg) => !pkg.private)
     .map((pkg) => {
@@ -147,33 +144,30 @@ async function genGlobalView(pkgRoot: string, pkgs: PackageJsonStub[]): Promise<
       return {
         name,
         description,
-        directory: `/packages/${name}`,
+        directory: `/packages/${path.basename(pkg.root)}`,
       };
     });
 
   packages.sort((a, b) => a.name.localeCompare(b.name));
 
-  const [license, examples] = await Promise.all([
-    genRenderedLicense(),
-    genExamples(path.join(pkgRoot, 'examples', 'src')),
-  ]);
+  const [license, examples] = await Promise.all([genRenderedLicense(rootPkg.author), genExamples(examplesRoot)]);
 
   return {
     installers: [
       {
-        name: 'npm',
+        installerName: 'npm',
         command: 'npm install',
         globalFlag: '--global',
         devFlag: '--save-dev',
       },
       {
-        name: 'yarn',
+        installerName: 'yarn',
         command: 'yarn add',
         globalFlag: '--global',
         devFlag: '--save-dev',
       },
       {
-        name: 'pnpm',
+        installerName: 'pnpm',
         command: 'pnpm add',
         globalFlag: '--global',
         devFlag: '--save-dev',
@@ -181,7 +175,7 @@ async function genGlobalView(pkgRoot: string, pkgs: PackageJsonStub[]): Promise<
     ],
     packages,
     examples,
-    license,
+    LICENSE: license,
     GENERATED_TOKEN,
   };
 }
@@ -202,23 +196,25 @@ function getPackageView(pkg: PackageJsonStub, globalView: GlobalView): View {
   };
 }
 
-async function genRenderedLicense(): Promise<string> {
-  const template = await readFile(path.join(__dirname, 'LICENSE.mustache'), 'utf-8');
+async function genRenderedLicense(author: string): Promise<string> {
+  const template = await fs.readFile(path.join(__dirname, 'LICENSE.mustache'), 'utf-8');
 
   return Mustache.render(template, {
     currentYear: new Date().getFullYear(),
+    author,
   });
 }
 
 async function main() {
   const workspaceRoot = path.join(__dirname, '..');
+  const rootPkg = await genPkgInfo(workspaceRoot);
 
   const pkgsRoot = path.join(workspaceRoot, 'packages');
-  const pkgs = await genPkgs(pkgsRoot);
+  const pkgs = await genPkgInfos(pkgsRoot);
 
-  const globalView = await genGlobalView(pkgsRoot, pkgs);
+  const globalView = await genGlobalView(rootPkg, pkgs, path.join(pkgsRoot, 'examples', 'src'));
 
-  const template = await readFile(path.join(__dirname, 'README.md.mustache'), 'utf-8');
+  const template = await fs.readFile(path.join(__dirname, 'README.mustache'), 'utf-8');
 
   await Promise.all(
     pkgs.map(async (pkg) => {
@@ -228,20 +224,22 @@ async function main() {
       const signed = signSource(rendered);
 
       await Promise.all([
-        writeFile(path.join(pkg.root, 'LICENSE'), view.license, 'utf-8'),
-        writeFile(path.join(pkg.root, 'README.md'), signed, 'utf-8'),
+        fs.writeFile(path.join(pkg.root, 'LICENSE'), view.LICENSE, 'utf-8'),
+        fs.writeFile(path.join(pkg.root, 'README.md'), signed, 'utf-8'),
       ]);
     }),
   );
 
   // Write for workspace
-  const rootTemplate = await readFile(path.join(__dirname, 'README-root.md.mustache'), 'utf-8');
-  const rootRendered = Mustache.render(rootTemplate, globalView);
+  const rootTemplate = await fs.readFile(path.join(__dirname, 'README-root.mustache'), 'utf-8');
+  const rootView = getPackageView(rootPkg, globalView);
+  //console.log(rootView);
+  const rootRendered = Mustache.render(rootTemplate, rootView, rootPkg.partials);
   const rootSigned = signSource(rootRendered);
 
   await Promise.all([
-    writeFile(path.join(workspaceRoot, 'README.md'), rootSigned, 'utf-8'),
-    writeFile(path.join(workspaceRoot, 'LICENSE'), globalView.license, 'utf-8'),
+    fs.writeFile(path.join(workspaceRoot, 'README.md'), rootSigned, 'utf-8'),
+    fs.writeFile(path.join(workspaceRoot, 'LICENSE'), globalView.LICENSE, 'utf-8'),
   ]);
 }
 

@@ -1,12 +1,16 @@
 # @ckwalsh/signedsource
 
-This library can be used to sign generated code and detect if that code has been accidentally modified.
+Library to sign and verify generated code, based on Meta's signedsource package.
 
-It supports two signature modes, one that signs an entire file, another that allows some sections to support manual
+This library can be used to sign generated code and detect if that code has
+been accidentally modified.
+
+It supports two signature modes, one that signs an entire file, another that
+allows some sections to support manual modifications.
+
+This signature scheme is NOT cryptographically secure, nor is it intended to
+be. It merely provides some signal that a file may have had accidental
 modifications.
-
-This signature scheme is NOT cryptographically secure, nor is it intended to be. It merely provides some signal that a
-file may have had accidental modifications.
 
 ## Installation
 
@@ -38,7 +42,7 @@ pnpm add @ckwalsh/signedsource
 ## Usage
 
 ```typescript
-import { strict as assert } from 'node:assert';
+import { strict as assert } from 'assert';
 import {
   BEGIN_MANUAL_SECTION_TOKEN,
   END_MANUAL_SECTION_TOKEN,
@@ -69,12 +73,13 @@ function getBestPet() {
 
 const signedPartial = signSource(unsignedPartialSource);
 assert(verifySignedSource(signedPartial));
+
 ```
 
 ### Full file signatures only
 
 ```typescript
-import { strict as assert } from 'node:assert';
+import { strict as assert } from 'assert';
 import { GENERATED_TOKEN, signSource, verifySignedSource } from '@ckwalsh/signedsource/full';
 
 const unsignedSource = `
@@ -93,12 +98,13 @@ assert(verifySignedSource(signed));
 
 console.log('Manipulated files fail verification');
 assert(!verifySignedSource(manipulated));
+
 ```
 
 ### Partial file signatures only
 
 ```typescript
-import { strict as assert } from 'node:assert';
+import { strict as assert } from 'assert';
 import {
   BEGIN_MANUAL_SECTION_TOKEN,
   END_MANUAL_SECTION_TOKEN,
@@ -132,12 +138,36 @@ assert(verifySignedSource(allowedManipulated));
 
 console.log('Verification fails when content outside a manual block is modified');
 assert(!verifySignedSource(forbiddenManipulated));
+
 ```
 
-## Related Packages
+## Other Packages
 
-- [@ckwalsh/signedsource-cli](../cli#readme) - CLI for signing / verifying files signed with this library.
+- [@ckwalsh/signedsource-cli](/packages/cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-eslint-plugin](/packages/eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
 
 ## License
 
-MIT
+MIT License
+
+Copyright (c) 2025 Cullen Walsh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+<!-- @generated SignedSource<<af9dceb18b69a3b8b80e56f2301e6759>> -->

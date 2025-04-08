@@ -2,7 +2,7 @@
   "name": "@ckwalsh/signedsource-examples",
   "version": "0.0.0",
   "private": true,
-  "description": "Example usages of @ckwalsh/signedsource",
+  "description": "Example usages of @ckwalsh/signedsource.",
   "homepage": "https://github.com/ckwalsh/signedsource/packages/examples#readme",
   "bugs": {
     "url": "https://github.com/ckwalsh/signedsource/issues"

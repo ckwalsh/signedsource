@@ -1,7 +1,11 @@
-# @ckwalsh/signedsource-cli
+# @ckwalsh/signedsource-examples
 
-CLI to sign and verify generated code, based on Meta's signedsource package.
+Example usages of @ckwalsh/signedsource.
 
+> [!WARNING]
+> This package is private, and not published to the npm registry.
+>
+> You are probably looking for one of the other packages in this repo.
 
 ## Installation
 
@@ -9,7 +13,7 @@ CLI to sign and verify generated code, based on Meta's signedsource package.
 <summary>npm</summary>
 
 ```
-npm install --global @ckwalsh/signedsource-cli
+npm install @ckwalsh/signedsource-examples
 ```
 
 </details>
@@ -17,7 +21,7 @@ npm install --global @ckwalsh/signedsource-cli
 <summary>yarn</summary>
 
 ```
-yarn add --global @ckwalsh/signedsource-cli
+yarn add @ckwalsh/signedsource-examples
 ```
 
 </details>
@@ -25,30 +29,19 @@ yarn add --global @ckwalsh/signedsource-cli
 <summary>pnpm</summary>
 
 ```
-pnpm add --global @ckwalsh/signedsource-cli
+pnpm add @ckwalsh/signedsource-examples
 ```
 
 </details>
 
 ## Usage
 
-```
-$ # Sign the file in place
-$ signedsource sign unsigned.txt
-
-$ # Output to a different file
-$ signedsource sign unsigned.txt --outFile signed.txt
-
-$ # Output to stdout
-$ signedsource sign unsigned.txt --outFile -
-
-$ # Verify a signed file
-$ signedsource verify signed.txt
-```
+*No usage information available*
 
 ## Other Packages
 
 - [@ckwalsh/signedsource](/packages/lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-cli](/packages/cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
 - [@ckwalsh/signedsource-eslint-plugin](/packages/eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
 
 ## License
@@ -75,4 +68,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<!-- @generated SignedSource<<447d7aa80b51ca484a044b9a25e362a4>> -->
+<!-- @generated SignedSource<<92965ea732f060dd0021e251459e2669>> -->

@@ -31,7 +31,7 @@ export default defineConfig([
   },
   tseslint.configs.stylisticTypeChecked,
   {
-    ignores: ['**/*generated*', 'packages/examples/src/**/*.ts'],
+    ignores: ['packages/examples/src/**/*.ts'],
     plugins: {
       'license-header': licenseHeaderPlugin,
     },

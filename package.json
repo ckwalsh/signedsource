@@ -13,6 +13,7 @@
     "lint": "eslint --cache .",
     "lint:fix": "eslint --cache --fix .",
     "prepare": "husky",
+    "readme": "pnpm exec tsx .readme/update.ts",
     "typecheck": "tsc --noEmit --incremental"
   },
   "keywords": [],
@@ -20,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ckwalsh/signedsource.git"
+    "url": "https://github.com/ckwalsh/signedsource"
   },
   "packageManager": "pnpm@10.6.3",
   "engines": {

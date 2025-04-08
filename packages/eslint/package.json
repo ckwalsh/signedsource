@@ -1,7 +1,7 @@
 {
   "name": "@ckwalsh/signedsource-eslint-plugin",
   "version": "0.2.0",
-  "description": "ESLint plugin for ensuring that signed generated files haven't been tampered with",
+  "description": "ESLint plugin for ensuring that generated files haven't been tampered with.",
   "homepage": "https://github.com/ckwalsh/signedsource/packages/eslint#readme",
   "bugs": {
     "url": "https://github.com/ckwalsh/signedsource/issues"

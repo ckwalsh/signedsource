@@ -1,3 +1,4 @@
 pnpm run typecheck
 pnpm run lint
 pnpm run ci:test --onlyChanged
+git diff --cached --name-only --diff-filter=ACMR | xargs grep -l '@\(partially-\)\?generated' | xargs -r -n1 signedsource verify --quiet

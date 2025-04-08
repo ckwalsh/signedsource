@@ -1,0 +1,39 @@
+# {{{ name }}}
+
+{{{ description }}}
+
+{{ > description.md }}
+{{#private}}
+> [!WARNING]
+> This package is private, and not published to the npm registry.
+>
+> You are probably looking for one of the other packages in this repo.
+{{/private}}
+
+## Installation
+
+{{#installers}}
+<details>
+<summary>{{installerName}}</summary>
+
+```
+{{command}}{{#install.global}} {{globalFlag}}{{/install.global}}{{#install.dev}} {{devFlag}}{{/install.dev}} {{{ name }}}
+```
+
+</details>
+{{/installers}}
+
+## Usage
+
+{{ > usage.md }}
+
+## Other Packages
+
+{{#packages}}
+- [{{{name}}}]({{{directory}}}#readme) - {{{description}}}
+{{/packages}}
+
+## License
+
+{{{ LICENSE }}}
+<!-- {{{ GENERATED_TOKEN }}} -->
