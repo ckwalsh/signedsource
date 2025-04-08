@@ -20,7 +20,7 @@ const messages = {
   'mismatched-manual': 'Mismatched manual section tokens',
 };
 
-const TAG_REGEX = /@(?:partially-)generated/d;
+const TAG_REGEX = /@(?:partially-)?generated/d;
 
 export const validSignatureRule: RuleModule<keyof typeof messages> = {
   meta: {
