@@ -49,7 +49,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "onFail": "error"
+      "onFail": "warn"
     }
   },
   "dependencies": {

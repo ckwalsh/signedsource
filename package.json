@@ -32,14 +32,14 @@
     "type": "git",
     "url": "https://github.com/ckwalsh/signedsource"
   },
-  "packageManager": "pnpm@10.6.3",
+  "packageManager": "pnpm@10.8.0",
   "engines": {
     "node": ">=22.14.0"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "onFail": "error"
+      "onFail": "warn"
     }
   },
   "type": "module",
