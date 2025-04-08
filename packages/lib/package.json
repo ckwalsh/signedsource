@@ -63,7 +63,7 @@
     "attw": "pnpm pack --out attw.tgz && attw attw.tgz; rm -f attw.tgz",
     "build": "tsup --config ../tsup.config.ts src/index.ts src/full/index.ts src/partial/index.ts",
     "prepack": "pnpm run build",
-    "readme": "echo '{}' | pnpx mustache -p ../examples/src/simple.ts -p ../examples/src/full.ts -p ../examples/src/partial.ts - README.md.mustache > README.md",
+    "readme": "echo '{}' | mustache -p ../examples/src/simple.ts -p ../examples/src/full.ts -p ../examples/src/partial.ts - README.tpl.md README.md",
     "test": "node --no-warnings --experimental-vm-modules ../../node_modules/jest/bin/jest.js --config ../../jest.config.json ./packages/lib"
   },
   "devDependencies": {

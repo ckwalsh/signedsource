@@ -10,6 +10,7 @@ import globals from 'globals';
 import eslint from '@eslint/js';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import licenseHeaderPlugin from 'eslint-plugin-license-header';
+import signedSource from '@ckwalsh/signedsource-eslint-plugin';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig([
@@ -68,6 +69,14 @@ export default defineConfig([
           ignoreDeclarationSort: true,
         },
       ],
+    },
+  },
+  {
+    plugins: {
+      signedsource: signedSource,
+    },
+    rules: {
+      'signedsource/valid-signature': 'error',
     },
   },
   eslintPluginPrettierRecommended,

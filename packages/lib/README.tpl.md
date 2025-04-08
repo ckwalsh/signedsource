@@ -1,0 +1,62 @@
+# @ckwalsh/signedsource
+
+This library can be used to sign generated code and detect if that code has been accidentally modified.
+
+It supports two signature modes, one that signs an entire file, another that allows some sections to support manual
+modifications.
+
+This signature scheme is NOT cryptographically secure, nor is it intended to be. It merely provides some signal that a
+file may have had accidental modifications.
+
+## Installation
+
+<details>
+<summary>npm</summary>
+
+```
+npm install @ckwalsh/signedsource
+```
+
+</details>
+<details>
+<summary>yarn</summary>
+
+```
+yarn add @ckwalsh/signedsource
+```
+
+</details>
+<details>
+<summary>pnpm</summary>
+
+```
+pnpm add @ckwalsh/signedsource
+```
+
+</details>
+
+## Usage
+
+```typescript
+{{ > simple.ts }}
+```
+
+### Full file signatures only
+
+```typescript
+{{ > full.ts }}
+```
+
+### Partial file signatures only
+
+```typescript
+{{ > partial.ts }}
+```
+
+## Related Packages
+
+- [@ckwalsh/signedsource-cli](../cli#readme) - CLI for signing / verifying files signed with this library.
+
+## License
+
+MIT

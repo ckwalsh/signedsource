@@ -1,14 +1,12 @@
 # @ckwalsh/signedsource
 
-This library can be used to sign generated code and detect if that code has
-been accidentally modified.
+This library can be used to sign generated code and detect if that code has been accidentally modified.
 
-It supports two signature modes, one that signs an entire file, another that
-allows some sections to support manual modifications.
-
-This signature scheme is NOT cryptographically secure, nor is it intended to
-be. It merely provides some signal that a file may have had accidental
+It supports two signature modes, one that signs an entire file, another that allows some sections to support manual
 modifications.
+
+This signature scheme is NOT cryptographically secure, nor is it intended to be. It merely provides some signal that a
+file may have had accidental modifications.
 
 ## Installation
 
@@ -16,22 +14,25 @@ modifications.
 <summary>npm</summary>
 
 ```
-npm install --save-dev @ckwalsh/signedsource
+npm install @ckwalsh/signedsource
 ```
+
 </details>
 <details>
 <summary>yarn</summary>
 
 ```
-yarn add --save-dev @ckwalsh/signedsource
+yarn add @ckwalsh/signedsource
 ```
+
 </details>
 <details>
 <summary>pnpm</summary>
 
 ```
-pnpm add --save-dev @ckwalsh/signedsource
+pnpm add @ckwalsh/signedsource
 ```
+
 </details>
 
 ## Usage
@@ -135,8 +136,7 @@ assert(!verifySignedSource(forbiddenManipulated));
 
 ## Related Packages
 
-- [@ckwalsh/signedsource-cli](../cli#readme) - CLI for signing / verifying
-  files signed with this library.
+- [@ckwalsh/signedsource-cli](../cli#readme) - CLI for signing / verifying files signed with this library.
 
 ## License
 

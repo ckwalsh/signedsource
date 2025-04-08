@@ -18,15 +18,13 @@
   },
   "type": "module",
   "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/src/index.d.ts",
-        "import": "./dist/src/index.js"
-      },
-      "require": {
-        "types": "./dist/src/index.d.cts",
-        "require": "./dist/src/index.cjs"
-      }
+    "import": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    },
+    "require": {
+      "types": "./dist/src/index.d.cts",
+      "require": "./dist/src/index.cjs"
     }
   },
   "module": "./dist/src/index.js",
