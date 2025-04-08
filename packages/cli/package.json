@@ -1,6 +1,6 @@
 {
   "name": "@ckwalsh/signedsource-cli",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "CLI to sign and verify generated code, based on Meta's signedsource package.",
   "homepage": "https://github.com/ckwalsh/signedsource/packages/cli#readme",
   "bugs": {

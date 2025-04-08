@@ -1,6 +1,6 @@
 {
   "name": "@ckwalsh/signedsource-examples",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Example usages of @ckwalsh/signedsource.",
   "homepage": "https://github.com/ckwalsh/signedsource/packages/examples#readme",
