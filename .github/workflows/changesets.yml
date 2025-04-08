@@ -5,11 +5,12 @@ on:
     branches:
       - main
 
-env:
-  CI: true
-
 jobs:
   version:
+    name: Handle changesets
+    permissions:
+      contents: write
+      pull-requests: write
     timeout-minutes: 15
     runs-on: homelab
     environment: release
