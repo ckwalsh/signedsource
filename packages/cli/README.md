@@ -48,8 +48,8 @@ $ signedsource verify signed.txt
 
 ## Other Packages
 
-- [@ckwalsh/signedsource](/packages/lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
-- [@ckwalsh/signedsource-eslint-plugin](/packages/eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
+- [@ckwalsh/signedsource](../lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-eslint-plugin](../eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
 
 ## License
 
@@ -75,4 +75,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<!-- @generated SignedSource<<447d7aa80b51ca484a044b9a25e362a4>> -->
+<!-- @generated SignedSource<<5834f8101790570c01157119051de641>> -->

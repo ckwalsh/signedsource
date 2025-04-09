@@ -26,13 +26,17 @@ interface PackageJsonStub {
 
 interface PackageInfo extends PackageJsonStub {
   root: string;
+  install: {
+    global: boolean;
+    dev: boolean;
+  };
   partials: Record<string, string>;
 }
 
 interface RelatedPackageView {
   name: string;
   description: string;
-  directory: string;
+  dirName: string;
 }
 
 interface InstallerView {
@@ -50,15 +54,7 @@ interface GlobalView {
   GENERATED_TOKEN: string;
 }
 
-interface View extends GlobalView {
-  name: string;
-  private: boolean;
-  description: string;
-  install: {
-    global: boolean;
-    dev: boolean;
-  };
-}
+type View = PackageInfo & GlobalView;
 
 async function genPkgInfos(pkgsRoot: string): Promise<PackageInfo[]> {
   const files = await fs.readdir(pkgsRoot);
@@ -76,10 +72,16 @@ async function genPkgInfo(pkgRoot: string): Promise<PackageInfo> {
     genPartialsForPkg(path.join(pkgRoot, '.readme')),
   ]);
 
+  const stub = rawPkg as PackageJsonStub;
+
   return {
-    ...(rawPkg as PackageJsonStub),
+    ...stub,
     root: pkgRoot,
     partials,
+    install: {
+      global: !!stub.bin,
+      dev: !!devPkgs[stub.name],
+    },
   };
 }
 
@@ -144,7 +146,7 @@ async function genGlobalView(rootPkg: PackageInfo, pkgs: PackageInfo[], examples
       return {
         name,
         description,
-        directory: `/packages/${path.basename(pkg.root)}`,
+        dirName: path.basename(pkg.root),
       };
     });
 
@@ -180,17 +182,11 @@ async function genGlobalView(rootPkg: PackageInfo, pkgs: PackageInfo[], examples
   };
 }
 
-function getPackageView(pkg: PackageJsonStub, globalView: GlobalView): View {
+function getPackageView(pkg: PackageInfo, globalView: GlobalView): View {
   const packages = globalView.packages.filter((p) => p.name !== pkg.name);
 
   return {
-    name: pkg.name,
-    private: !!pkg.private,
-    description: pkg.description,
-    install: {
-      global: !!pkg.bin,
-      dev: !!devPkgs[pkg.name],
-    },
+    ...pkg,
     ...globalView,
     packages,
   };
