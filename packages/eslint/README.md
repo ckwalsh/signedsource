@@ -36,8 +36,8 @@ pnpm add --save-dev @ckwalsh/signedsource-eslint-plugin
 
 ## Other Packages
 
-- [@ckwalsh/signedsource](/packages/lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
-- [@ckwalsh/signedsource-cli](/packages/cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource](../lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-cli](../cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
 
 ## License
 
@@ -63,4 +63,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<!-- @generated SignedSource<<21b86d38957d357c1fcd4d07b445f85d>> -->
+<!-- @generated SignedSource<<54dee7de2d42d114bf0aac6640ec42d1>> -->

@@ -40,9 +40,9 @@ pnpm add @ckwalsh/signedsource-examples
 
 ## Other Packages
 
-- [@ckwalsh/signedsource](/packages/lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
-- [@ckwalsh/signedsource-cli](/packages/cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
-- [@ckwalsh/signedsource-eslint-plugin](/packages/eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
+- [@ckwalsh/signedsource](../lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-cli](../cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-eslint-plugin](../eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
 
 ## License
 
@@ -68,4 +68,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<!-- @generated SignedSource<<92965ea732f060dd0021e251459e2669>> -->
+<!-- @generated SignedSource<<77f0d44f8b7e9d40de13a1f035e8f552>> -->

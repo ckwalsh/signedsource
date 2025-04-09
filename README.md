@@ -1,10 +1,10 @@
-[![main](/actions/workflows/main.yml/badge.svg)](/actions/workflows/main.yml)
+[![main](https://github.com/ckwalsh/signedsource/actions/workflows/main.yml/badge.svg)](https://github.com/ckwalsh/signedsource/actions/workflows/main.yml)
 
 This repo contains multiple packages, see their README files for more information:
 
-- [@ckwalsh/signedsource](/packages/lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
-- [@ckwalsh/signedsource-cli](/packages/cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
-- [@ckwalsh/signedsource-eslint-plugin](/packages/eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
+- [@ckwalsh/signedsource](./packages/lib#readme) - Library to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-cli](./packages/cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-eslint-plugin](./packages/eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
 
 ## License
 
@@ -30,4 +30,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<!-- @generated SignedSource<<ecf8ab785b59958058abcd82d3809ef1>> -->
+<!-- @generated SignedSource<<d6a7d35a6884f7052ce47c5d87ec14fa>> -->
