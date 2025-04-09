@@ -143,8 +143,8 @@ assert(!verifySignedSource(forbiddenManipulated));
 
 ## Other Packages
 
-- [@ckwalsh/signedsource-cli](/packages/cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
-- [@ckwalsh/signedsource-eslint-plugin](/packages/eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
+- [@ckwalsh/signedsource-cli](../cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
+- [@ckwalsh/signedsource-eslint-plugin](../eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
 
 ## License
 
@@ -170,4 +170,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<!-- @generated SignedSource<<af9dceb18b69a3b8b80e56f2301e6759>> -->
+<!-- @generated SignedSource<<e5251ed169bbf3d4ac4244b7c258303d>> -->
