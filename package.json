@@ -44,7 +44,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.17.4",
+    "@arethetypeswrong/cli": "^0.18.1",
     "@changesets/cli": "^2.29.4",
     "@ckwalsh/signedsource": "workspace:*",
     "@ckwalsh/signedsource-cli": "workspace:*",
