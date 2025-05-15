@@ -51,7 +51,7 @@
     "@ckwalsh/signedsource-eslint-plugin": "workspace:*",
     "@eslint/js": "^9.26.0",
     "@tsconfig/node22": "^22.0.1",
-    "@types/mustache": "^4.2.5",
+    "@types/mustache": "^4.2.6",
     "@types/node": "^22.15.18",
     "eslint": "^9.26.0",
     "eslint-config-prettier": "^10.1.5",
