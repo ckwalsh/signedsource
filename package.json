@@ -50,7 +50,7 @@
     "@ckwalsh/signedsource-cli": "workspace:*",
     "@ckwalsh/signedsource-eslint-plugin": "workspace:*",
     "@eslint/js": "^9.27.0",
-    "@tsconfig/node22": "^22.0.1",
+    "@tsconfig/node22": "^22.0.2",
     "@types/mustache": "^4.2.6",
     "@types/node": "^22.15.29",
     "eslint": "^9.27.0",
