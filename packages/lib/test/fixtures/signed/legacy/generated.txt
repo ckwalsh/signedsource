@@ -1,0 +1,5 @@
+/* eslint-disable */
+
+/* @generated SignedSource<<6fde99c7ccfb41abcb26139df27817ec>> */
+
+const foo = 'bar';

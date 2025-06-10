@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`manual file manual/foobar.txt can be analyzed by SourceSigner (Multitype) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by SourceSigner (Multitype) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (Default) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (Default) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (Default) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (Default) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 1`] = `
+{
+  "sourceType": 2,
+}
+`;
+
+exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 2`] = `"Source is not generated"`;
+
+exports[`manual file manual/foobar.txt cannot be signed by SourceSigner (Multitype) 1`] = `"Cannot sign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be signed by StringSourceSigner (Default) 1`] = `"Cannot sign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be signed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Cannot sign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be signed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Cannot sign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be signed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Cannot sign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be signed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Cannot sign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be signed by StringSourceSigner (LegacyContentSigner) 1`] = `"Cannot sign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be unsigned by SourceSigner (Multitype) 1`] = `"Cannot unsign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be unsigned by StringSourceSigner (Default) 1`] = `"Cannot unsign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Cannot unsign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Cannot unsign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Cannot unsign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Cannot unsign manual source"`;
+
+exports[`manual file manual/foobar.txt cannot be unsigned by StringSourceSigner (LegacyContentSigner) 1`] = `"Cannot unsign manual source"`;

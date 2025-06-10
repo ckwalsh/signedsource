@@ -1,9 +1,0 @@
-{
-  "extends": "@tsconfig/node22/tsconfig.json",
-  "include": ["**/*.ts", ".readme/update.ts"],
-  "compilerOptions": {
-    "noEmit": true,
-    "strict": true,
-    "resolveJsonModule": true
-  }
-}

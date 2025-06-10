@@ -6,24 +6,13 @@
     "packages/*"
   ],
   "scripts": {
-    "ci:attw": "pnpm --silent run -r attw",
-    "ci:build": "pnpm --silent run -r --sequential build",
-    "ci:publish": "pnpm publish -r",
-    "ci:test": "node --no-warnings --experimental-vm-modules ./node_modules/jest/bin/jest.js --config ./jest.config.json",
-    "generated:list:all": "pnpm --silent run git:all | xargs -r grep -l '@\\(partially-\\)\\?generated' | xargs -r grep -L 'deadbeef'",
-    "generated:list:modified": "pnpm --silent run git:modified | xargs -r grep -l '@\\(partially-\\)\\?generated' | xargs -r grep -L 'deadbeef'",
-    "generated:list:staged": "pnpm --silent run git:staged | xargs -r grep -l '@\\(partially-\\)\\?generated' | xargs -r grep -L 'deadbeef'",
-    "generated:verify:all": "pnpm --silent run generated:list:all | xargs -r -n1 ./node_modules/.bin/signedsource verify",
-    "generated:verify:modified": "pnpm --silent run generated:list:modified | xargs -r -n1 ./node_modules/.bin/signedsource verify",
-    "generated:verify:staged": "pnpm --silent run generated:list:staged | xargs -r -n1 ./node_modules/.bin/signedsource verify",
-    "git:all": "git ls-tree -r HEAD --name-only",
-    "git:modified": "git diff --name-only --diff-filter=ACMR",
-    "git:staged": "git diff --cached --name-only --diff-filter=ACMR",
-    "lint": "eslint --cache .",
-    "lint:fix": "eslint --cache --fix .",
+    "knip": "knip",
+    "lint": "eslint --cache",
+    "lint-fix": "eslint --cache --fix",
+    "lint-staged": "lint-staged",
     "prepare": "husky",
     "readme": "pnpm exec tsx .readme/update.ts",
-    "typecheck": "tsc --noEmit --incremental"
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "Cullen Walsh",
@@ -46,27 +35,21 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.4",
     "@changesets/cli": "^2.29.2",
-    "@ckwalsh/signedsource": "workspace:*",
-    "@ckwalsh/signedsource-cli": "workspace:*",
-    "@ckwalsh/signedsource-eslint-plugin": "workspace:*",
-    "@eslint/js": "^9.24.0",
-    "@tsconfig/node22": "^22.0.1",
-    "@types/mustache": "^4.2.5",
-    "@types/node": "^22.14.1",
-    "eslint": "^9.24.0",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-license-header": "^0.8.0",
-    "eslint-plugin-prettier": "^5.2.6",
-    "globals": "^16.0.0",
+    "@ckwalsh/typescript-dev-configs": "github:ckwalsh/typescript-dev-configs#main",
+    "@jest/globals": "^29.7.0",
+    "@trivago/prettier-plugin-sort-imports": "github:ckwalsh/prettier-plugin-sort-imports",
+    "eslint": "^9.26.0",
     "husky": "^9.1.7",
-    "jest": "catalog:",
+    "jest": "^29.7.0",
+    "knip": "^5.54.1",
+    "lint-staged": "^15.5.2",
     "mustache": "^4.2.0",
     "prettier": "^3.5.3",
     "ts-jest": "^29.3.2",
-    "ts-node": "^10.9.2",
     "tsup": "^8.4.0",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.3",
-    "typescript-eslint": "^8.31.0"
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ts-jest": "^29.3.2"
   }
 }

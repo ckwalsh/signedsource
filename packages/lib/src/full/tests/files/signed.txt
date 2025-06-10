@@ -1,6 +1,0 @@
-/**
- * @generated SignedSource<<03a57f2ef05016f6767ae71c1885a55a>>
- */
-
-const foo = 'FOO';
-let bar = 'bar';

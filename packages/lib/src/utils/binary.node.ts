@@ -5,8 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export * from './content/index.ts';
-export * from './impl/index.ts';
-export * from './types/index.ts';
-
-export * from './constants.ts';
+/**
+ * @internal
+ */
+export function hexToBase64Url(hexString: string): string {
+  return Buffer.from(hexString, 'hex').toString('base64url');
+}

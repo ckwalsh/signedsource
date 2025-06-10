@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export * from './content/index.ts';
-export * from './impl/index.ts';
-export * from './types/index.ts';
-
-export * from './constants.ts';
+export * from './default.ts';
+export * from './jws.ts';
+export * from './legacy.ts';
+export * from './multiplex.ts';
+export * from './never.ts';

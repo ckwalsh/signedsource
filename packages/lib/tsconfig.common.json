@@ -1,0 +1,6 @@
+{
+  "include": ["./src/**/*.ts", "./tsup.config.ts", "./test/**/*.ts"],
+  "compilerOptions": {
+    "allowImportingTsExtensions": true
+  }
+}

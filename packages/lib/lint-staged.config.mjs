@@ -5,8 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export * from './content/index.ts';
-export * from './impl/index.ts';
-export * from './types/index.ts';
+import { lintStaged } from '@ckwalsh/typescript-dev-configs';
 
-export * from './constants.ts';
+export default lintStaged.defineConfig();
