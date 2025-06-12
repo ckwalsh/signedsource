@@ -31,7 +31,7 @@ interface StalledData {
   needsEnqueue: boolean;
 }
 
-export interface SignTransformerOptions {
+interface SignTransformerOptions {
   manualSectionOverrides?: Record<string, string>;
   signer: ContentSignerIf;
 }

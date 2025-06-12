@@ -5,9 +5,10 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/**
- * @internal
- */
 export function hexToBase64Url(hexString: string): string {
   return Buffer.from(hexString, 'hex').toString('base64url');
+}
+
+export function hexToUint8Array(hexString: string): Uint8Array {
+  return Uint8Array.from(Buffer.from(hexString, 'hex'));
 }

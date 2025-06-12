@@ -5,12 +5,14 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import type { UnderlyingSink } from 'node:stream/web';
+
 import { LEGACY_CONTENT_SIGNER } from '../content/legacy.ts';
 import { SignTransformer } from '../stream/sign.ts';
 import { UnsignTransformer } from '../stream/unsign.ts';
 import type { ContentSignerIf } from '../types/content.ts';
 import type { SignedSourceOptions } from '../types/impl/options.ts';
-import type { SignOptions, UnsignOptions } from '../types/impl/signer.ts';
+import type { TransformOptions } from '../types/impl/signer.ts';
 import { SourceAnalyzerBase } from './base.ts';
 import type { StreamSourceAnalyzerIf, StreamSourceSignerIf } from './stream.ts';
 import type { StringSourceAnalyzerIf, StringSourceSignerIf } from './string.ts';
@@ -35,12 +37,23 @@ export class SourceAnalyzer
   }
 }
 
-async function streamToString(stream: ReadableStream<string>): Promise<string> {
-  const chunks: string[] = [];
-  for await (const chunk of stream) {
-    chunks.push(chunk);
+class StringConcatSink implements UnderlyingSink<string> {
+  public output = '';
+  private chunks: string[] = [];
+
+  write(chunk: string): void {
+    this.chunks.push(chunk);
   }
-  return chunks.join('');
+  close(): void {
+    this.output = this.chunks.join('');
+  }
+}
+
+async function streamToString(stream: ReadableStream<string>): Promise<string> {
+  const sink = new StringConcatSink();
+  await stream.pipeTo(new WritableStream(sink));
+
+  return sink.output;
 }
 
 export class SourceSigner
@@ -54,14 +67,14 @@ export class SourceSigner
     this.#signer = options.signer ?? LEGACY_CONTENT_SIGNER;
   }
 
-  sign(source: string, options?: SignOptions): Promise<string>;
+  sign(source: string, options?: TransformOptions): Promise<string>;
   sign(
     source: ReadableStream<string>,
-    options?: SignOptions,
+    options?: TransformOptions,
   ): ReadableStream<string>;
   sign(
     source: string | ReadableStream<string>,
-    options: SignOptions = {},
+    options: TransformOptions = {},
   ): Promise<string> | ReadableStream<string> {
     const stream = this.toTokenStream(source, options).pipeThrough(
       new TransformStream(
@@ -76,14 +89,14 @@ export class SourceSigner
     return streamToString(stream);
   }
 
-  unsign(source: string, options?: UnsignOptions): Promise<string>;
+  unsign(source: string, options?: TransformOptions): Promise<string>;
   unsign(
     source: ReadableStream<string>,
-    options?: UnsignOptions,
+    options?: TransformOptions,
   ): ReadableStream<string>;
   unsign(
     source: string | ReadableStream<string>,
-    options: UnsignOptions = {},
+    options: TransformOptions = {},
   ): Promise<string> | ReadableStream<string> {
     const stream = this.toTokenStream(source, options).pipeThrough(
       new TransformStream(

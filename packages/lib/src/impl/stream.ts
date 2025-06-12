@@ -9,6 +9,7 @@ import type { SourceAnalyzerIf } from '../types/impl/analyzer.ts';
 import type { SourceSignerIf } from '../types/impl/signer.ts';
 import { SourceAnalyzerBase, SourceSignerBase } from './base.ts';
 
+/** @inline **/
 type StringStream = ReadableStream<string>;
 export type StreamSourceAnalyzerIf = SourceAnalyzerIf<StringStream>;
 export type StreamSourceSignerIf = SourceSignerIf<StringStream, StringStream>;

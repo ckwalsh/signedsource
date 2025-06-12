@@ -13,9 +13,6 @@ import type { HasherIf, HasherStaticIf } from './hasher.common.ts';
 
 export * from './hasher.common.ts';
 
-/**
- * @internal
- */
 export class Hasher implements HasherIf {
   private md5: Hash = createHash('md5');
   private sha256: Hash = createHash('sha256');

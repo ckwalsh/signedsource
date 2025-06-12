@@ -1,4 +1,5 @@
-pnpm run typecheck
-pnpm run lint
-pnpm run ci:test --onlyChanged
-pnpm run generated:verify:staged
+pnpm -r run typecheck
+pnpm -r run build --clean
+if [ -n "${HG}" ]; then pnpm -r run lint-staged --no-stash --diff HEAD; else pnpm -r run lint-staged; fi;
+pnpm -r run knip
+pnpm -r run attw

@@ -20,7 +20,7 @@ interface StalledData {
   data: string;
 }
 
-export interface UnsignTransformerOptions {
+interface UnsignTransformerOptions {
   manualSectionOverrides?: Record<string, string>;
   signer?: ContentSignerIf;
 }

@@ -7,20 +7,16 @@
 
 import type { ContentSignerIf, ContentVerifierIf } from '../content.ts';
 
-interface SingleVerifierOptions {
+export interface SingleVerifierOptions {
+  signer?: ContentSignerIf;
   verifier?: ContentVerifierIf;
   verifiers?: never;
 }
 
-interface MultiVerifierOptions {
+export interface MultiVerifierOptions {
+  signer?: ContentSignerIf;
   verifier?: never;
   verifiers?: ContentVerifierIf[];
 }
 
-type VerifierOptions = SingleVerifierOptions | MultiVerifierOptions;
-
-interface SignerOptions {
-  signer?: ContentSignerIf;
-}
-
-export type SignedSourceOptions = VerifierOptions & SignerOptions;
+export type SignedSourceOptions = SingleVerifierOptions | MultiVerifierOptions;

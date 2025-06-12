@@ -27,11 +27,7 @@ import type {
 } from '../types/impl/analyzer.ts';
 import { SourceType } from '../types/impl/analyzer.ts';
 import type { SignedSourceOptions } from '../types/impl/options.ts';
-import type {
-  SignOptions,
-  SourceSignerIf,
-  UnsignOptions,
-} from '../types/impl/signer.ts';
+import type { SourceSignerIf, TransformOptions } from '../types/impl/signer.ts';
 
 export abstract class SourceAnalyzerBase<TSource>
   implements SourceAnalyzerIf<TSource>
@@ -132,6 +128,7 @@ export abstract class SourceAnalyzerBase<TSource>
     return sink.analysis;
   }
 
+  /** @internal **/
   protected toTokenStream(
     source: TSource,
     options: AnalyzeOptions,
@@ -141,6 +138,7 @@ export abstract class SourceAnalyzerBase<TSource>
     );
   }
 
+  /** @internal **/
   protected abstract toInputStream(source: TSource): ReadableStream<string>;
 }
 
@@ -161,11 +159,15 @@ export abstract class SourceSignerBase<TSource, TResult = Promise<TSource>>
       verifiers = [];
     }
 
+    let superOptions: SignedSourceOptions;
+    let signer: ContentSignerIf;
+
     if (options.signer === undefined) {
-      super({ verifiers });
-      this.#signer = LEGACY_CONTENT_SIGNER;
+      superOptions = { verifiers };
+
+      signer = LEGACY_CONTENT_SIGNER;
     } else {
-      let signer = options.signer;
+      signer = options.signer;
       verifiers = verifiers.filter((v) => v !== signer);
 
       if (verifiers.length > 0) {
@@ -175,12 +177,14 @@ export abstract class SourceSignerBase<TSource, TResult = Promise<TSource>>
         });
       }
 
-      super({ verifier: signer });
-      this.#signer = signer;
+      superOptions = { verifier: signer };
     }
+
+    super(superOptions);
+    this.#signer = signer;
   }
 
-  sign(source: TSource, options: SignOptions = {}): TResult {
+  sign(source: TSource, options: TransformOptions = {}): TResult {
     return this.#transform(
       source,
       options,
@@ -188,7 +192,7 @@ export abstract class SourceSignerBase<TSource, TResult = Promise<TSource>>
     );
   }
 
-  unsign(source: TSource, options: UnsignOptions = {}): TResult {
+  unsign(source: TSource, options: TransformOptions = {}): TResult {
     return this.#transform(
       source,
       options,
@@ -208,5 +212,6 @@ export abstract class SourceSignerBase<TSource, TResult = Promise<TSource>>
     );
   }
 
+  /** @internal **/
   protected abstract streamToResult(stream: ReadableStream<string>): TResult;
 }

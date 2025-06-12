@@ -30,7 +30,10 @@ export type SignatureToken =
   | LegacySignatureToken
   | JwsSignatureToken;
 
-export type EmbeddedSignatureToken = SignatureToken & {
+export interface EmbeddedSignatureTokenPosition {
   start: number;
   end: number;
-};
+}
+
+export type EmbeddedSignatureToken = SignatureToken &
+  EmbeddedSignatureTokenPosition;

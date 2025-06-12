@@ -1,3 +1,4 @@
 {
-  "extends": ["./tsconfig.node.json"]
+  "extends": ["./tsconfig.default.json"],
+  "references": [{ "path": "./tsconfig.jest.json" }]
 }

@@ -12,9 +12,6 @@ export * from './hasher.common.ts';
 
 const encoder = new TextEncoder();
 
-/**
- * @internal
- */
 export class Hasher implements HasherIf {
   static readonly isAsync = true;
 

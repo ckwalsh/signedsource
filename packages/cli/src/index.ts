@@ -5,5 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-export { SignCommand } from './sign.js';
-export { VerifyCommand } from './verify.js';
+export * from './analyze.js';
+export * from './sign.ts';
+export * from './unsign.ts';
+export * from './verify.ts';

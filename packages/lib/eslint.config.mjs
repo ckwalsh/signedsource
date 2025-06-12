@@ -7,4 +7,6 @@
 
 import { eslint } from '@ckwalsh/typescript-dev-configs';
 
-export default eslint.defineConfig();
+export default eslint.defineConfig({
+  tsAndJsConfigs: [{ ignores: ['./docs'] }],
+});

@@ -2,11 +2,10 @@ packages:
   - devPackages/**
   - packages/**
 
-catalog:
-  jest: "^29.7.0"
-  "@jest/globals": "^29.7.0"
-
 requiredScripts:
   - attw
   - build
   - test
+
+overrides:
+  "@ckwalsh/signedsource-cli": link:packages/cli

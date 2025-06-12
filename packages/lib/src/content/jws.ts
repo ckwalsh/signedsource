@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { hexToBase64Url } from '#src/utils/binary.ts';
+import { hexToBase64Url, hexToUint8Array } from '#src/utils/binary.ts';
 import type { SigningKey, VerifyKey } from '#src/utils/keys.ts';
 import { isJWK } from '#src/utils/keys.ts';
 import type { JWK, JWSHeaderParameters } from 'jose';
@@ -15,6 +15,8 @@ import { renderPlaceholderToken } from '../token.ts';
 import type { ContentSignerIf, ContentVerifierIf } from '../types/content.ts';
 import type { SignedContentHashes } from '../types/impl/analyzer.ts';
 import type { JwsSignatureToken, SignatureToken } from '../types/tokens.ts';
+
+export type { SigningKey, VerifyKey } from '#src/utils/keys.ts';
 
 export interface JWSContentVerifierOptions {
   key: VerifyKey;
@@ -77,12 +79,12 @@ export class JWSContentVerifier implements ContentVerifierIf {
   }
 }
 
-interface JWSContentSignerExplicitHeaderOptions {
+export interface JWSContentSignerExplicitHeaderOptions {
   key: Exclude<SigningKey, JWK>;
   header: JWSHeaderParameters;
 }
 
-interface JWSContentSignerJWKOptions {
+export interface JWSContentSignerJWKOptions {
   key: JWK;
   header?: JWSHeaderParameters;
   embedKid?: boolean;
@@ -125,7 +127,7 @@ const EMPTY_HASH = new Uint8Array(32); // Length of sha256 hash
 
 export async function createJWSContentSigner(
   options: JWSContentSignerOptions,
-): Promise<JWSContentSigner> {
+): Promise<ContentSignerIf> {
   const header = resolveProtectedHeader(options);
 
   const token = await new FlattenedSign(EMPTY_HASH)
@@ -163,7 +165,7 @@ class JWSContentSigner extends JWSContentVerifier implements ContentSignerIf {
   }
 
   async sign(hashes: SignedContentHashes): Promise<JwsSignatureToken> {
-    const payload = Uint8Array.from(Buffer.from(hashes.sha256, 'hex'));
+    const payload = hexToUint8Array(hashes.sha256);
 
     const token = await new FlattenedSign(payload)
       .setProtectedHeader(this.#header)

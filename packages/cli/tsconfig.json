@@ -1,0 +1,5 @@
+{
+  "extends": ["@ckwalsh/typescript-dev-configs/tsconfig.node.json"],
+  "include": ["./bin/**/*.ts", "./src/**/*.ts", "./tsup.config.ts"],
+  "references": [{ "path": "./tsconfig.jest.json" }]
+}
