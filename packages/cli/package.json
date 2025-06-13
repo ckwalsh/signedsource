@@ -23,7 +23,7 @@
     "directory": "packages/cli"
   },
   "scripts": {
-    "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw attw",
+    "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw",
     "build": "tsup",
     "build:watch": "tsup --watch",
     "knip": "pnpm run -w knip -W $(realpath --relative-to ../../ .)",
@@ -46,8 +46,8 @@
   },
   "devDependencies": {
     "@ckwalsh/typescript-dev-configs": "github:ckwalsh/typescript-dev-configs#main",
-    "@tsconfig/node24": "^24.0.1",
-    "@types/node": "^24.0.1",
+    "@tsconfig/node20": "^20.1.5",
+    "@types/node": "^20.19.0",
     "jose": "^6.0.11",
     "knip": "^5.61.0",
     "tsup": "^8.5.0",

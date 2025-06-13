@@ -1,3 +1,7 @@
 {
-  "include": ["./src", "./test", "./tsup.config.ts"]
+  "include": ["./src", "./test", "./tsup.config.ts"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "incremental": true
+  }
 }
