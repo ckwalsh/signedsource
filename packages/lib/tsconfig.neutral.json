@@ -4,6 +4,7 @@
     "./tsconfig.common.json"
   ],
   "compilerOptions": {
-    "lib": ["ES2021.Promise"]
+    "lib": ["ES2021.Promise"],
+    "outDir": "./dist/neutral"
   }
 }
