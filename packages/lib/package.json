@@ -59,7 +59,7 @@
     "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw attw",
     "build": "tsup",
     "build:watch": "tsup --watch",
-    "docs": "typedoc",
+    "generate-docs": "typedoc --excludeInternal",
     "knip": "pnpm run -w knip -W $(realpath --relative-to ../../ .)",
     "lint": "pnpm run -w lint $(realpath --relative-to ../../ .)",
     "lint:fix": "pnpm run -w lint:fix $(realpath --relative-to ../../ .)",
