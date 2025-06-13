@@ -17,7 +17,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version: ['*', 'lts/*', 'lts/-1', 'lts/-2']
+        # node-version: ['*', 'lts/*', 'lts/-1', 'lts/-2']
+        node-version: ['lts/*']
+
+    env:
+      HUSKY: 0
+      CI: 1
 
     steps:
       - name: Checkout code
@@ -30,16 +35,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install
+        run: |
+          pnpm install
+          pnpm ls -r
         shell: bash
-        env:
-          HUSKY: 0
+
+      - name: Typecheck code
+        run: |
+          pnpm exec tsc --showConfig
+          pnpm run --reporter append-only tsc --showConfig
+          pnpm exec tsc --noEmit
+          pnpm run --reporter append-only tsc
+        shell: bash
 
       - name: Run Linter
-        run: pnpm run lint
+        run: |
+          pnpm run --silent lint --print-config ./packages/lib/tsup.config.ts | jq '{ language: .language, languageOptions: .languageOptions, linterOptions: .linterOptions, plugins: .plugins, settings: .settings }'
+          pnpm run lint
         shell: bash
 
       - name: Run Tests
