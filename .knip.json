@@ -1,8 +1,5 @@
 {
   "workspaces": {
-    ".": {
-      "ignoreDependencies": ["@arethetypeswrong/cli"]
-    },
     "packages/*": {
       "project": ["src/**/*.ts", "!**/*.default.ts"],
       "ignore": ["docs/"]
