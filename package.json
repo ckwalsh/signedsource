@@ -15,6 +15,7 @@
     "test": "node --experimental-vm-modules --disable-warning=ExperimentalWarning ./node_modules/jest/bin/jest.js",
     "tsc": "pnpm run -r tsc",
     "prepare": "husky",
+    "ci:publish": "pnpm publish -r",
     ":attw:wrapper": "node --experimental-strip-types --disable-warning=ExperimentalWarning ./scripts/attw.ts",
     ":build:wrapper": "node --experimental-strip-types --disable-warning=ExperimentalWarning ./scripts/tsup.ts"
   },
@@ -41,8 +42,8 @@
     "@changesets/cli": "^2.29.4",
     "@ckwalsh/typescript-dev-configs": "github:ckwalsh/typescript-dev-configs#main",
     "@trivago/prettier-plugin-sort-imports": "github:ckwalsh/prettier-plugin-sort-imports",
-    "@tsconfig/node24": "^24.0.1",
-    "@types/node": "^24.0.1",
+    "@tsconfig/node20": "^20.1.5",
+    "@types/node": "^20.19.0",
     "eslint": "^9.28.0",
     "husky": "^9.1.7",
     "jest": "^30.0.0",
