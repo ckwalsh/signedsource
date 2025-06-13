@@ -1,0 +1,5 @@
+/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiT0tQIiwia2lkIjoiTmVmVk14WVRrOHZDZkhXcExkckRqOUhOZEh0YzdlaTlPOGxXOU4xSnJJcyIsImNydiI6IkVkMjU1MTkiLCJhbGciOiJFZERTQSIsIngiOiJzT1hRUDVmemFYQWlqSmxwcVBmWERKN0l5SG0yaGU4b2ZFd0djTEtQeWZjIn19.PRzsIOMj0crvaTnRdTEToArQb0zwVUqs9Vs7ENV9o1vABj5WCJUcE8iZ82vZINHzziIz-Dw1OarGACI9QmccDQ>> */
+
+const foo = 'bar';

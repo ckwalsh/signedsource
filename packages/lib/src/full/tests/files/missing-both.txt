@@ -1,6 +1,0 @@
-/**
- * Header Text
- */
-
-const foo = 'FOO';
-let bar = 'bar';

@@ -1,6 +1,6 @@
 {
   "name": "@ckwalsh/signedsource",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Library to sign and verify generated code, based on Meta's signedsource package.",
   "homepage": "https://github.com/ckwalsh/signedsource/packages/lib#readme",
   "bugs": {
@@ -10,47 +10,43 @@
   "author": "Cullen Walsh",
   "files": [
     "dist",
-    "full",
-    "partial",
+    "!dist/**/metafile*.json",
     "README.md",
     "LICENSE"
   ],
   "type": "module",
+  "imports": {
+    "#*.ts": {
+      "node": "./*.node.ts",
+      "default": "./*.default.ts"
+    }
+  },
   "exports": {
-    ".": {
+    "source": "./src/index.ts",
+    "node": {
       "import": {
-        "types": "./dist/index.d.ts",
-        "import": "./dist/index.js"
+        "types": "./dist/node/index.d.ts",
+        "import": "./dist/node/index.js"
       },
       "require": {
-        "types": "./dist/index.d.cts",
-        "require": "./dist/index.cjs"
+        "types": "./dist/node/index.d.cts",
+        "require": "./dist/node/index.cjs"
       }
     },
-    "./full": {
+    "default": {
       "import": {
-        "types": "./dist/full/index.d.ts",
-        "import": "./dist/full/index.js"
+        "types": "./dist/neutral/index.d.ts",
+        "import": "./dist/neutral/index.js"
       },
       "require": {
-        "types": "./dist/full/index.d.cts",
-        "require": "./dist/full/index.cjs"
-      }
-    },
-    "./partial": {
-      "import": {
-        "types": "./dist/partial/index.d.ts",
-        "import": "./dist/partial/index.js"
-      },
-      "require": {
-        "types": "./dist/partial/index.d.cts",
-        "require": "./dist/partial/index.cjs"
+        "types": "./dist/neutral/index.d.cts",
+        "require": "./dist/neutral/index.cjs"
       }
     }
   },
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "main": "./dist/index.cjs",
+  "module": "./dist/neutral/index.js",
+  "types": "./dist/neutral/index.d.ts",
+  "main": "./dist/neutral/index.cjs",
   "directories": {
     "lib": "dist"
   },
@@ -60,19 +56,37 @@
     "directory": "packages/lib"
   },
   "scripts": {
-    "attw": "pnpm pack --out attw.tgz && attw attw.tgz; rm -f attw.tgz",
-    "build": "tsup --config ../tsup.config.ts src/index.ts src/full/index.ts src/partial/index.ts",
-    "prepack": "pnpm run build",
-    "readme": "echo '{}' | mustache -p ../examples/src/simple.ts -p ../examples/src/full.ts -p ../examples/src/partial.ts - README.tpl.md README.md",
-    "test": "node --no-warnings --experimental-vm-modules ../../node_modules/jest/bin/jest.js --config ../../jest.config.json ./packages/lib"
-  },
-  "devDependencies": {
-    "@jest/globals": "catalog:"
+    "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw attw",
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "generate-docs": "typedoc --excludeInternal",
+    "knip": "pnpm run -w knip -W $(realpath --relative-to ../../ .)",
+    "lint": "pnpm run -w lint $(realpath --relative-to ../../ .)",
+    "lint:fix": "pnpm run -w lint:fix $(realpath --relative-to ../../ .)",
+    "test": "pnpm run -w test --roots $(realpath --relative-to ../../ .)",
+    "tsc": "tsc --noEmit",
+    "tsc:watch": "tsc --noEmit --watch",
+    "prepare": "tsup --silent --clean"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "onFail": "warn"
+      "onFail": "error"
     }
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "jose": "^6.0.11"
+  },
+  "devDependencies": {
+    "@ckwalsh/typescript-dev-configs": "github:ckwalsh/typescript-dev-configs#main",
+    "@jest/globals": "^30.0.0",
+    "@tsconfig/node24": "^24.0.1",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^24.0.1",
+    "knip": "^5.61.0",
+    "tsup": "^8.5.0",
+    "typedoc": "^0.28.5",
+    "typescript": "^5.8.3"
   }
 }

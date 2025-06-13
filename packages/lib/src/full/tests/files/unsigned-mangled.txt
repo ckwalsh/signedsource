@@ -1,6 +1,0 @@
-/**
- * @generated      <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>>
- */
-
-const foo = 'FOO';
-let bar = 'bar';

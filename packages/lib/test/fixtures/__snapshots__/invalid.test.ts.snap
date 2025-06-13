@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by SourceSigner (Multitype) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by SourceSigner (Multitype) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by SourceSigner (Multitype) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by SourceSigner (Multitype) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by SourceSigner (Multitype) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (Default) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (Default) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (Default) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (Default) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (Default) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be signed by SourceSigner (Multitype) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be signed by StringSourceSigner (Default) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be signed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be signed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be signed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be signed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be signed by StringSourceSigner (LegacyContentSigner) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be unsigned by SourceSigner (Multitype) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be unsigned by StringSourceSigner (Default) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/generated.no_token.txt cannot be unsigned by StringSourceSigner (LegacyContentSigner) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by SourceSigner (Multitype) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by SourceSigner (Multitype) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by SourceSigner (Multitype) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by SourceSigner (Multitype) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by SourceSigner (Multitype) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (Default) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (Default) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (Default) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (Default) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (Default) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (Default) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 2`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 3`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 4`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 5`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be signed by SourceSigner (Multitype) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be signed by StringSourceSigner (Default) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be signed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be signed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be signed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be signed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be signed by StringSourceSigner (LegacyContentSigner) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be unsigned by SourceSigner (Multitype) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be unsigned by StringSourceSigner (Default) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.no_token.txt cannot be unsigned by StringSourceSigner (LegacyContentSigner) 1`] = `"Expected signed or unsigned token prefix, but found neither."`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by SourceSigner (Multitype) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by SourceSigner (Multitype) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by SourceSigner (Multitype) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by SourceSigner (Multitype) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by SourceSigner (Multitype) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (Default) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (Default) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (Default) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (Default) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (Default) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (Default) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (Default) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (Default) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (Default) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (Default) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 2`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 3`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 4`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 5`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be signed by SourceSigner (Multitype) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be signed by StringSourceSigner (Default) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be signed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be signed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be signed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be signed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be signed by StringSourceSigner (LegacyContentSigner) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be unsigned by SourceSigner (Multitype) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be unsigned by StringSourceSigner (Default) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be unsigned by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `"Unclosed manual section"`;
+
+exports[`invalid file invalid/partial.open_section.txt cannot be unsigned by StringSourceSigner (LegacyContentSigner) 1`] = `"Unclosed manual section"`;

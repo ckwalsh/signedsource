@@ -1,11 +1,13 @@
 packages:
-  - packages/*
-
-catalog:
-  jest: "^29.7.0"
-  "@jest/globals": "^29.7.0"
+  - "packages/*"
 
 requiredScripts:
   - attw
   - build
+  - build:watch
+  - knip
+  - lint
+  - lint:fix
   - test
+  - tsc
+  - tsc:watch

@@ -1,6 +1,0 @@
-/**
- * @generated
- */
-
-const foo = 'FOO';
-let bar = 'bar';

@@ -1,0 +1,9 @@
+/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiRUMiLCJraWQiOiJqNHVndGQ5M2pZVGJoQXdtc3oyZHdNaktubHRBQU1oMkYwR1JIcnRfMnNjIiwiY3J2IjoiUC0yNTYiLCJhbGciOiJFUzI1NiIsIngiOiJwV09UaVZhUk9KTVNSX3NiREFnelFNdUNPT29TUDZTZWRkUmpTTWRSTk1zIiwieSI6IjA5Z25HQ0xQSVR4bHNnX0oyTGNRWjFNdzcxc1ZxSmxld0NER0xhUFRIQjAifX0.exDz-CzzOMoyU4qvDbfrnVlo7qUFuRXUGhFwoPCHQecIDOH1km7bkRPv19E8zNANNQf7r0Qiu-GcqdCYlFyxWA>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */

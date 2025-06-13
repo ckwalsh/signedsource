@@ -7,20 +7,32 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { Cli } from 'clipanion';
+import { Builtins, Cli } from 'clipanion';
 import * as path from 'path';
-import pkg from '../package.json' with { type: 'json' };
 
-import { SignCommand, VerifyCommand } from '../src/index.js';
+import pkg from '../package.json' with { type: 'json' };
+import {
+  AnalyzeCommand,
+  SignCommand,
+  UnsignCommand,
+  VerifyCommand,
+} from '../src/index.js';
 
 const [_node, app, ...args] = process.argv;
+
+if (app === undefined) {
+  throw new Error('Missing app name');
+}
 
 const cli = new Cli({
   binaryName: path.basename(app),
   binaryVersion: pkg.version,
 });
 
+cli.register(Builtins.HelpCommand);
+cli.register(AnalyzeCommand);
 cli.register(SignCommand);
+cli.register(UnsignCommand);
 cli.register(VerifyCommand);
 
 void cli.runExit(args);

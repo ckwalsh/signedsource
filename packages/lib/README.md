@@ -1,23 +1,23 @@
+[![main](https://github.com/ckwalsh/signedsource/actions/workflows/main.yml/badge.svg)](https://github.com/ckwalsh/signedsource/actions/workflows/main.yml)
+
 # @ckwalsh/signedsource
 
-Library to sign and verify generated code, based on Meta's signedsource package.
+Library to sign generated code to ensure it has not been tampered with, based on
+Meta's signedsource package.
 
-This library can be used to sign generated code and detect if that code has
-been accidentally modified.
+This library supports both fully and partially generated documents, and both
+cryptographic and non-cryptographic signatures.
 
-It supports two signature modes, one that signs an entire file, another that
-allows some sections to support manual modifications.
-
-This signature scheme is NOT cryptographically secure, nor is it intended to
-be. It merely provides some signal that a file may have had accidental
-modifications.
+This package does not contain any user tooling for working with generated files.
+If you are looking for a CLI, check out
+[@ckwalsh/signedsource-cli](../cli/README.md).
 
 ## Installation
 
 <details>
 <summary>npm</summary>
 
-```
+```sh
 npm install @ckwalsh/signedsource
 ```
 
@@ -25,7 +25,7 @@ npm install @ckwalsh/signedsource
 <details>
 <summary>yarn</summary>
 
-```
+```sh
 yarn add @ckwalsh/signedsource
 ```
 
@@ -33,141 +33,66 @@ yarn add @ckwalsh/signedsource
 <details>
 <summary>pnpm</summary>
 
-```
+```sh
 pnpm add @ckwalsh/signedsource
 ```
 
 </details>
 
-## Usage
+## Working with Generated Files
+
+Generated files are annotated with specially formatted tags in their comments.
+These tags consist of two parts, separated by a space:
+
+- **Type:** Generated files can be marked as either `@generated` or
+  `@partially-generated`
+  - `@generated` files cannot be modified without invalidating the embedded
+    signature. Use this for files that should never be manually altered.
+  - `@partially-generated` files can contain sections bounded by
+    `BEGIN MANUAL SECTION SectionName` and `END MANUAL SECTION`, between which
+    the content may be changed without invalidating the embedded signature. It
+    is possible to extract and retain these manual sections when working with
+    codegen, allowing manual sections to remain untouched while generated code
+    is updated.
+- **Signature Token:** Unsigned files contain a signature placeholder, while
+  signed files contain a cryptographic signature.
+  - Placeholders are of the form `<<SignedSource::PaddingData>>`. For backwards
+    compatibility with the Meta implementation, the placeholder
+    `<<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>>` is frequently used.
+  - Signatures are of the form `SignedSource<<SignatureData>>`. Signatures
+    compatible with the Meta library consist of 32 hexadecimal characters,
+    representing the md5 digest of the signed content. Signatures may also be
+    created using a JSON Web Key (JWK), consisting of the base64url encoded
+    protected header and signature of a JSON Web Signature (JWS). The payload
+    for the JWS is the sha256 digest of the signed content, and is omitted from
+    the token.
+
+## Examples
+
+### Generated Source
 
 ```typescript
-import { strict as assert } from 'assert';
-import {
-  BEGIN_MANUAL_SECTION_TOKEN,
-  END_MANUAL_SECTION_TOKEN,
-  GENERATED_TOKEN,
-  PARTIALLY_GENERATED_TOKEN,
-  signSource,
-  verifySignedSource,
-} from '@ckwalsh/signedsource';
+/* eslint-disable */
 
-const unsignedSource = `
-// ${GENERATED_TOKEN}
+/* @generated SignedSource<<6fde99c7ccfb41abcb26139df27817ec>> */
 
-I like Kittens!
-`;
-
-const signed = signSource(unsignedSource);
-assert(verifySignedSource(signed));
-
-const unsignedPartialSource = `
-// ${PARTIALLY_GENERATED_TOKEN}
-
-function getBestPet() {
-// ${BEGIN_MANUAL_SECTION_TOKEN} pet
-  return 'Kitten';
-// ${END_MANUAL_SECTION_TOKEN}
-}
-`;
-
-const signedPartial = signSource(unsignedPartialSource);
-assert(verifySignedSource(signedPartial));
-
+const foo = 'bar';
 ```
 
-### Full file signatures only
+### Partially Generated Source
 
 ```typescript
-import { strict as assert } from 'assert';
-import { GENERATED_TOKEN, signSource, verifySignedSource } from '@ckwalsh/signedsource/full';
+/* eslint-disable */
 
-const unsignedSource = `
-// ${GENERATED_TOKEN}
+/* @partially-generated SignedSource<<b2e42e793ae28eece8f6d05cae623680>> */
 
-I like Kittens!
-`;
+const foo = 'bar';
 
-const signed = signSource(unsignedSource);
-const manipulated = signed.replace('Kittens', 'Puppies');
+/* BEGIN MANUAL SECTION pets */
 
-assert(manipulated !== signed);
+// This section can be modified without invalidating the signature
 
-console.log('Fully signed files verify correctly');
-assert(verifySignedSource(signed));
+const favoritePet = 'cats';
 
-console.log('Manipulated files fail verification');
-assert(!verifySignedSource(manipulated));
-
+/* END MANUAL SECTION */
 ```
-
-### Partial file signatures only
-
-```typescript
-import { strict as assert } from 'assert';
-import {
-  BEGIN_MANUAL_SECTION_TOKEN,
-  END_MANUAL_SECTION_TOKEN,
-  GENERATED_TOKEN,
-  signSource,
-  verifySignedSource,
-} from '@ckwalsh/signedsource/partial';
-
-const unsignedSource = `
-// ${GENERATED_TOKEN}
-
-function getBestPet() {
-// ${BEGIN_MANUAL_SECTION_TOKEN} pet
-  return 'Kitten';
-// ${END_MANUAL_SECTION_TOKEN}
-}
-`;
-
-const signed = signSource(unsignedSource);
-const allowedManipulated = signed.replace('Kitten', 'Puppy');
-const forbiddenManipulated = signed.replace('Best', 'Cutest');
-
-assert(allowedManipulated !== signed);
-assert(forbiddenManipulated !== signed);
-
-console.log('Partially signed files verify correctly');
-assert(verifySignedSource(signed));
-
-console.log('Verification passes when the content of a manual block is modified');
-assert(verifySignedSource(allowedManipulated));
-
-console.log('Verification fails when content outside a manual block is modified');
-assert(!verifySignedSource(forbiddenManipulated));
-
-```
-
-## Other Packages
-
-- [@ckwalsh/signedsource-cli](../cli#readme) - CLI to sign and verify generated code, based on Meta's signedsource package.
-- [@ckwalsh/signedsource-eslint-plugin](../eslint#readme) - ESLint plugin for ensuring that generated files haven't been tampered with.
-
-## License
-
-MIT License
-
-Copyright (c) 2025 Cullen Walsh
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-<!-- @generated SignedSource<<e5251ed169bbf3d4ac4244b7c258303d>> -->

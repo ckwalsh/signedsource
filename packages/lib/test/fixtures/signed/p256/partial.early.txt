@@ -1,0 +1,9 @@
+/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ.pTUzJ1nYRzwIAqaazOUe_P83jFI27zaJ5LF5c5LzkNoEs2txeRkzwufcYf9EKElAQya-LZSNMFa4a12gVh8ebw>> */
+
+const foo = 'bar';

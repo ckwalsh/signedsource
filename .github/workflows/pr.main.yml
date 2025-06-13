@@ -7,9 +7,51 @@ on:
 
 jobs:
   build-and-test:
-    name: Build and Test
+    name: Build and Test (Node ${{ matrix.node-version }})
 
     permissions:
       contents: read
 
-    uses: ./.github/workflows/build-and-test.yml
+    runs-on: homelab
+
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['*', 'lts/*', 'lts/-1', 'lts/-2']
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup node ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # Required for github:ckwalsh/prettier-plugin-sort-imports
+      - name: Setup yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@stable --activate
+        shell: bash
+
+      - name: Install dependencies
+        run: pnpm install
+        shell: bash
+        env:
+          HUSKY: 0
+
+      - name: Run Lint-staged
+        run: pnpm run lint
+        shell: bash
+
+      - name: Run Tests
+        run: pnpm run test
+        shell: bash
+
+      - name: Run AreTheTypesWrong
+        run: pnpm run attw
+        shell: bash

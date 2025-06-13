@@ -1,6 +1,6 @@
 {
   "name": "@ckwalsh/signedsource-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CLI to sign and verify generated code, based on Meta's signedsource package.",
   "homepage": "https://github.com/ckwalsh/signedsource/packages/cli#readme",
   "bugs": {
@@ -17,45 +17,40 @@
     "signedsource": "dist/bin/signedsource.cjs"
   },
   "type": "module",
-  "exports": {
-    "import": {
-      "types": "./dist/src/index.d.ts",
-      "import": "./dist/src/index.js"
-    },
-    "require": {
-      "types": "./dist/src/index.d.cts",
-      "require": "./dist/src/index.cjs"
-    }
-  },
-  "module": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
-  "main": "./dist/src/index.cjs",
-  "directories": {
-    "lib": "dist/src"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ckwalsh/signedsource",
     "directory": "packages/cli"
   },
   "scripts": {
-    "attw": "pnpm pack --out attw.tgz && attw attw.tgz; rm -f attw.tgz",
-    "build": "tsup --config ../tsup.config.ts src/index.ts bin/signedsource.ts",
-    "prepack": "pnpm run build",
-    "test": "node --no-warnings --experimental-vm-modules ../../node_modules/jest/bin/jest.js --config ../../jest.config.json ./packages/cli"
-  },
-  "devDependencies": {
-    "@jest/globals": "catalog:"
+    "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw attw",
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "knip": "pnpm run -w knip -W $(realpath --relative-to ../../ .)",
+    "lint": "pnpm run -w lint $(realpath --relative-to ../../ .)",
+    "lint:fix": "pnpm run -w lint:fix $(realpath --relative-to ../../ .)",
+    "test": "pnpm run -w test --roots $(realpath --relative-to ../../ .)",
+    "tsc": "tsc --noEmit",
+    "tsc:watch": "tsc --noEmit --watch",
+    "prepare": "tsup --silent --clean"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "onFail": "warn"
+      "onFail": "error"
     }
   },
   "dependencies": {
     "@ckwalsh/signedsource": "workspace:*",
-    "clipanion": "4.0.0-rc.4",
-    "colors": "^1.4.0"
+    "clipanion": "4.0.0-rc.4"
+  },
+  "devDependencies": {
+    "@ckwalsh/typescript-dev-configs": "github:ckwalsh/typescript-dev-configs#main",
+    "@tsconfig/node24": "^24.0.1",
+    "@types/node": "^24.0.1",
+    "jose": "^6.0.11",
+    "knip": "^5.61.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   }
 }

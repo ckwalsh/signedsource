@@ -1,0 +1,9 @@
+/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
