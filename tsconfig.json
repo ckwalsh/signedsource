@@ -1,0 +1,3 @@
+{
+  "extends": ["@ckwalsh/typescript-dev-configs/tsconfig.node.json"]
+}
