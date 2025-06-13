@@ -30,7 +30,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
+
+      # Required for github:ckwalsh/prettier-plugin-sort-imports
+      - name: Setup yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@stable --activate
+        shell: bash
 
       - name: Install dependencies
         run: pnpm install
@@ -38,7 +44,7 @@ jobs:
         env:
           HUSKY: 0
 
-      - name: Run Linter
+      - name: Run Lint-staged
         run: pnpm run lint
         shell: bash
 
