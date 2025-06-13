@@ -2,5 +2,9 @@
   "extends": [
     "@ckwalsh/typescript-dev-configs/tsconfig.node.json",
     "./tsconfig.common.json"
-  ]
+  ],
+  "compilerOptions": {
+    "outDir": "./dist/node",
+    "tsBuildInfoFile": "tsconfig.node.tsbuildinfo"
+  }
 }
