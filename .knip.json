@@ -1,0 +1,16 @@
+{
+  "workspaces": {
+    ".": {
+      "ignoreDependencies": ["@arethetypeswrong/cli"]
+    },
+    "packages/*": {
+      "project": ["src/**/*.ts", "!**/*.default.ts"],
+      "ignore": ["docs/"]
+    },
+    "packages/lib": {
+      "project": ["src/**/*.ts", "!**/*.default.ts"],
+      "ignore": ["docs/"],
+      "ignoreDependencies": ["crypto-js", "@types/crypto-js"]
+    }
+  }
+}

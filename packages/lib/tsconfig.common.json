@@ -1,4 +1,3 @@
 {
-  "include": ["./src/**/*.ts", "./tsup.config.ts"],
-  "exclude": ["./src/**/*.test.ts", "./src/**/*.spec.ts", "./test"]
+  "include": ["./src", "./test", "./tsup.config.ts"]
 }

@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { eslint } from '@ckwalsh/typescript-dev-configs';
+import { jest } from '@ckwalsh/typescript-dev-configs';
 
-export default eslint.defineConfig();
+export default jest.defineConfig({
+  rootDir: import.meta.dirname,
+});

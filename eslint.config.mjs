@@ -5,6 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { lintStaged } from '@ckwalsh/typescript-dev-configs';
+import { eslint } from '@ckwalsh/typescript-dev-configs';
 
-export default lintStaged.defineConfig();
+export default eslint.defineConfig({});

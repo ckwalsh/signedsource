@@ -1,5 +1,5 @@
-pnpm -r run typecheck
-pnpm -r run build --clean
-if [ -n "${HG}" ]; then pnpm -r run lint-staged --no-stash --diff HEAD; else pnpm -r run lint-staged; fi;
-pnpm -r run knip
-pnpm -r run attw
+pnpm run tsc
+pnpm run build
+if [ -n "${HG}" ]; then pnpm run lint-staged --no-stash --diff HEAD; else pnpm run lint-staged; fi;
+pnpm run knip
+pnpm run attw

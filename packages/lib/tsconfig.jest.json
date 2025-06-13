@@ -1,8 +1,0 @@
-{
-  "extends": [
-    "@ckwalsh/typescript-dev-configs/tsconfig.jest.json",
-    "./tsconfig.common.json"
-  ],
-  "include": ["./src/**/*.test.ts", "./src/**/*.spec.ts", "./test"],
-  "exclude": []
-}

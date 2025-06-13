@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@ckwalsh/typescript-dev-configs/tsconfig.json",
+    "@ckwalsh/typescript-dev-configs/tsconfig.neutral.json",
     "./tsconfig.common.json"
   ],
   "compilerOptions": {

@@ -9,11 +9,11 @@ import { tsup } from '@ckwalsh/typescript-dev-configs';
 
 import pkg from './package.json' with { type: 'json' };
 
-export default tsup.defineConfig(
+export default tsup.defineConfig({
+  rootDir: import.meta.dirname,
   pkg,
-  {},
-  {
-    default: true,
+  platforms: {
+    neutral: true,
     node: true,
   },
-);
+});

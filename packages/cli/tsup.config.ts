@@ -9,7 +9,7 @@ import { tsup } from '@ckwalsh/typescript-dev-configs';
 
 import pkg from './package.json' with { type: 'json' };
 
-export default tsup.defineConfig(pkg, {
-  format: ['cjs'],
-  dts: false,
+export default tsup.defineConfig({
+  rootDir: import.meta.dirname,
+  pkg,
 });

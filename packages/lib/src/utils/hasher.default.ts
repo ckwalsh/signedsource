@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import CryptoJS from 'crypto-js';
+
 import type { SignedContentHashes } from '../types/impl/analyzer.ts';
 import type { HasherIf, HasherStaticIf } from './hasher.common.ts';
 
@@ -15,25 +17,25 @@ const encoder = new TextEncoder();
 export class Hasher implements HasherIf {
   static readonly isAsync = true;
 
-  private chunks: string[] = [];
+  #chunks: string[] = [];
 
   update(chunk: string): void {
-    this.chunks.push(chunk);
+    this.#chunks.push(chunk);
   }
 
   async digest(): Promise<SignedContentHashes> {
-    const data = this.chunks.join('');
-    this.chunks.length = 0;
+    const data = this.#chunks.join('');
+    this.#chunks.length = 0;
 
-    const [md5Raw, sha256Raw] = await Promise.all([
-      crypto.subtle.digest('MD5', encoder.encode(data)),
-      crypto.subtle.digest('SHA-256', encoder.encode(data)),
-    ]);
+    const md5 = CryptoJS.enc.Hex.stringify(CryptoJS.MD5(data));
 
-    return {
-      md5: arrayBufferToHex(md5Raw),
-      sha256: arrayBufferToHex(sha256Raw),
-    };
+    const sha256Raw = await crypto.subtle.digest(
+      'SHA-256',
+      encoder.encode(data),
+    );
+    const sha256 = arrayBufferToHex(sha256Raw);
+
+    return { md5, sha256 };
   }
 }
 

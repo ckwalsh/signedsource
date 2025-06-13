@@ -1,11 +1,13 @@
 packages:
-  - devPackages/**
-  - packages/**
+  - "packages/*"
 
 requiredScripts:
   - attw
   - build
+  - build:watch
+  - knip
+  - lint
+  - lint:fix
   - test
-
-overrides:
-  "@ckwalsh/signedsource-cli": link:packages/cli
+  - tsc
+  - tsc:watch
