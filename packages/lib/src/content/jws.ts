@@ -5,9 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { hexToBase64Url, hexToUint8Array } from '#src/utils/binary.ts';
-import type { SigningKey, VerifyKey } from '#src/utils/keys.ts';
-import { isJWK } from '#src/utils/keys.ts';
 import type { JWK, JWSHeaderParameters } from 'jose';
 import { EmbeddedJWK, FlattenedSign, flattenedVerify } from 'jose';
 
@@ -15,8 +12,11 @@ import { renderPlaceholderToken } from '../token.ts';
 import type { ContentSignerIf, ContentVerifierIf } from '../types/content.ts';
 import type { SignedContentHashes } from '../types/impl/analyzer.ts';
 import type { JwsSignatureToken, SignatureToken } from '../types/tokens.ts';
+import { hexToBase64Url, hexToUint8Array } from '../utils/binary.ts';
+import type { SigningKey, VerifyKey } from '../utils/keys.ts';
+import { isJWK } from '../utils/keys.ts';
 
-export type { SigningKey, VerifyKey } from '#src/utils/keys.ts';
+export type { SigningKey, VerifyKey } from '../utils/keys.ts';
 
 export interface JWSContentVerifierOptions {
   key: VerifyKey;

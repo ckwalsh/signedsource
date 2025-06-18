@@ -16,7 +16,7 @@ import {
   TOKEN_SUFFIX,
   UNSIGNED_TOKEN_PREFIX,
 } from '../constants.ts';
-import { SourceType } from '../types/impl/analyzer.ts';
+import type { SourceType } from '../types/impl/analyzer.ts';
 import type { Node } from './nodes.ts';
 
 const GENERATED_TAG_NEEDLE = GENERATED_TAG + ' ';
@@ -25,7 +25,7 @@ const MANUAL_SECTION_START_NEEDLE = BEGIN_MANUAL_SECTION + ' ';
 const MANUAL_SECTION_ID_END_REGEXP = /[^a-zA-Z0-9]/;
 
 interface TokenizeTransformerOptions {
-  sourceType?: Exclude<SourceType, SourceType.MANUAL>;
+  sourceType?: Exclude<SourceType, 'manual'>;
 }
 
 export class TokenizeTransformer implements Transformer<string, Node> {
@@ -65,10 +65,10 @@ export class TokenizeTransformer implements Transformer<string, Node> {
   #process(controller: TransformStreamDefaultController<Node>): boolean {
     if (!this.#tagFound) {
       switch (this.#sourceType) {
-        case SourceType.GENERATED:
+        case 'generated':
           this.#lookForGeneratedTag(controller);
           break;
-        case SourceType.PARTIALLY_GENERATED:
+        case 'partially-generated':
           this.#lookForPartiallyGeneratedTag(controller);
           break;
         case null:
@@ -146,7 +146,7 @@ export class TokenizeTransformer implements Transformer<string, Node> {
     }
 
     switch (this.#sourceType) {
-      case SourceType.GENERATED:
+      case 'generated':
         if (this.#tagFound) {
           if (this.#data.length > 0) {
             controller.enqueue({
@@ -169,7 +169,7 @@ export class TokenizeTransformer implements Transformer<string, Node> {
           }
         }
         return false;
-      case SourceType.PARTIALLY_GENERATED:
+      case 'partially-generated':
       case null:
         if (this.#manualSectionOpen) {
           if (this.#manualSectionIdComplete) {
@@ -268,7 +268,7 @@ export class TokenizeTransformer implements Transformer<string, Node> {
           }
         }
         break;
-      case SourceType.MANUAL:
+      case 'manual':
         if (this.#data.length > 0) {
           controller.enqueue({
             type: 'SignedSource',
@@ -305,10 +305,10 @@ export class TokenizeTransformer implements Transformer<string, Node> {
 
     controller.enqueue({
       type: 'SignedSourceType',
-      sourceType: SourceType.GENERATED,
+      sourceType: 'generated',
     });
 
-    this.#sourceType = SourceType.GENERATED;
+    this.#sourceType = 'generated';
     this.#tagFound = true;
     this.#data = this.#data.slice(end);
   }
@@ -340,10 +340,10 @@ export class TokenizeTransformer implements Transformer<string, Node> {
 
     controller.enqueue({
       type: 'SignedSourceType',
-      sourceType: SourceType.PARTIALLY_GENERATED,
+      sourceType: 'partially-generated',
     });
 
-    this.#sourceType = SourceType.PARTIALLY_GENERATED;
+    this.#sourceType = 'partially-generated';
     this.#tagFound = true;
     this.#data = this.#data.slice(end);
   }
@@ -369,7 +369,7 @@ export class TokenizeTransformer implements Transformer<string, Node> {
     if (generatedPos < partiallyGeneratedPos) {
       controller.enqueue({
         type: 'SignedSourceType',
-        sourceType: SourceType.GENERATED,
+        sourceType: 'generated',
       });
 
       const end = generatedPos + GENERATED_TAG_NEEDLE.length;
@@ -380,7 +380,7 @@ export class TokenizeTransformer implements Transformer<string, Node> {
         signedData,
       });
 
-      this.#sourceType = SourceType.GENERATED;
+      this.#sourceType = 'generated';
       this.#tagFound = true;
       this.#data = this.#data.slice(end);
     } else {
@@ -399,10 +399,10 @@ export class TokenizeTransformer implements Transformer<string, Node> {
 
       controller.enqueue({
         type: 'SignedSourceType',
-        sourceType: SourceType.PARTIALLY_GENERATED,
+        sourceType: 'partially-generated',
       });
 
-      this.#sourceType = SourceType.PARTIALLY_GENERATED;
+      this.#sourceType = 'partially-generated';
       this.#tagFound = true;
       this.#data = this.#data.slice(end);
     }
@@ -411,11 +411,11 @@ export class TokenizeTransformer implements Transformer<string, Node> {
   flush(controller: TransformStreamDefaultController<Node>): void {
     if (this.#sourceType === null) {
       // Auto detect as manual file
-      this.#sourceType = SourceType.MANUAL;
+      this.#sourceType = 'manual';
 
       controller.enqueue({
         type: 'SignedSourceType',
-        sourceType: SourceType.MANUAL,
+        sourceType: 'manual',
       });
 
       this.#tagFound = true;

@@ -7,8 +7,8 @@
 
 import { expect, test } from '@jest/globals';
 
-import * as defaultImpl from './keys.default.ts';
 import * as nodeImpl from './keys.node.ts';
+import * as defaultImpl from './keys.ts';
 
 const input = {
   kty: 'EC',

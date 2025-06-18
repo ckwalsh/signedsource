@@ -8,11 +8,7 @@
 import { expect, test } from '@jest/globals';
 
 import type { SourceAnalysis } from '../src/index.ts';
-import {
-  SourceType,
-  StringSourceAnalyzer,
-  StringSourceSigner,
-} from '../src/index.ts';
+import { StringSourceAnalyzer, StringSourceSigner } from '../src/index.ts';
 
 const inputSource = `
 /* eslint-disable */
@@ -23,7 +19,7 @@ const foo = 'bar';
 `;
 
 const expectedAnalysis: SourceAnalysis = {
-  sourceType: SourceType.GENERATED,
+  sourceType: 'generated',
   embeddedSignature: {
     type: 'SignaturePlaceholderToken',
     paddingLength: 8,

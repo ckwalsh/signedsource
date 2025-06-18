@@ -9,7 +9,6 @@ import { describe, expect, test } from '@jest/globals';
 import fs from 'node:fs';
 
 import type { SourceAnalysis } from '../../src/index.ts';
-import { SourceType } from '../../src/index.ts';
 import { stubNonDeterministicSignature } from '../utils/deterministic.ts';
 import type { ValidGeneratedFile } from '../utils/files.ts';
 import { getInputFiles } from '../utils/files.ts';
@@ -23,7 +22,7 @@ const [files, signers, analyzers] = await Promise.all([
 
 const generatedFiles: ValidGeneratedFile[] = files.filter(
   (file): file is ValidGeneratedFile =>
-    file.sourceType !== SourceType.MANUAL && file.isWellFormed,
+    file.sourceType !== 'manual' && file.isWellFormed,
 );
 
 describe.each(generatedFiles)(
@@ -32,9 +31,7 @@ describe.each(generatedFiles)(
     const source = fs.readFileSync(absPath, 'utf8');
 
     const wrongSourceType =
-      sourceType === SourceType.GENERATED
-        ? SourceType.PARTIALLY_GENERATED
-        : SourceType.GENERATED;
+      sourceType === 'generated' ? 'partially-generated' : 'generated';
 
     test.each(signers)(
       'can be signed by $name',
