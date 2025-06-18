@@ -1,0 +1,6 @@
+{
+  "extends": "../tsconfig.node.json",
+  "include": ["./", "../package.json"],
+  "exclude": ["./**/*.browser.ts", "./**/*.spec.ts", "./**/*.test.ts"],
+  "references": []
+}

@@ -8,8 +8,8 @@
 import { expect, test } from '@jest/globals';
 
 import type { SignedContentHashes } from '../types/impl/analyzer.ts';
-import * as defaultImpl from './hasher.default.ts';
 import * as nodeImpl from './hasher.node.ts';
+import * as defaultImpl from './hasher.ts';
 
 const inputA = '0889777cb804e138e89cf6459dd58f49';
 const inputB = 'd72875573cecb655e41201ea99335d8e';

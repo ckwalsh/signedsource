@@ -8,7 +8,6 @@
 import { describe, expect, test } from '@jest/globals';
 import fs from 'node:fs';
 
-import { SourceType } from '../../src/index.ts';
 import type { ManualFile } from '../utils/files.ts';
 import { getInputFiles } from '../utils/files.ts';
 import { getSourceAnalyzers, getSourceSigners } from '../utils/signer.ts';
@@ -20,7 +19,7 @@ const [files, signers, analyzers] = await Promise.all([
 ]);
 
 const manualFiles: ManualFile[] = files.filter(
-  (file): file is ManualFile => file.sourceType === SourceType.MANUAL,
+  (file): file is ManualFile => file.sourceType === 'manual',
 );
 
 describe.each(manualFiles)('manual file $name', ({ absPath }) => {
@@ -38,7 +37,7 @@ describe.each(manualFiles)('manual file $name', ({ absPath }) => {
     const analysis = await analyzer.analyze(source);
     expect(analysis).toMatchSnapshot();
 
-    expect(analysis.sourceType).toEqual(SourceType.MANUAL);
+    expect(analysis.sourceType).toEqual('manual');
 
     expect(await analyzer.isGenerated(source)).toEqual(false);
     expect(await analyzer.isSigned(source)).toEqual(false);

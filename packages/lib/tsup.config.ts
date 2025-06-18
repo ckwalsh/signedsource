@@ -12,8 +12,5 @@ import pkg from './package.json' with { type: 'json' };
 export default tsup.defineConfig({
   rootDir: import.meta.dirname,
   pkg,
-  platforms: {
-    neutral: true,
-    node: true,
-  },
+  platforms: ['neutral', 'node'],
 });

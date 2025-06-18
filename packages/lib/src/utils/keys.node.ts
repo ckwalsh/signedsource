@@ -8,7 +8,9 @@
 import type { FlattenedVerifyGetKey, JWK } from 'jose';
 import type { KeyObject, webcrypto } from 'node:crypto';
 
+/** @public Suppress from knip */
 export type SigningKey = webcrypto.CryptoKey | KeyObject | JWK | Uint8Array;
+/** @public Suppress from knip */
 export type VerifyKey = SigningKey | FlattenedVerifyGetKey;
 
 export function isJWK(key: VerifyKey): key is JWK {

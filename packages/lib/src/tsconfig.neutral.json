@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.neutral.json",
+  "include": ["./", "../package.json"],
+  "exclude": [
+    "./**/*.browser.ts",
+    "./**/*.node.ts",
+    "./**/*.spec.ts",
+    "./**/*.test.ts"
+  ],
+  "references": []
+}

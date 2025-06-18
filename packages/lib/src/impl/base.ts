@@ -25,7 +25,6 @@ import type {
   SourceAnalyzerIf,
   ValidateOptions,
 } from '../types/impl/analyzer.ts';
-import { SourceType } from '../types/impl/analyzer.ts';
 import type { SignedSourceOptions } from '../types/impl/options.ts';
 import type { SourceSignerIf, TransformOptions } from '../types/impl/signer.ts';
 
@@ -65,7 +64,7 @@ export abstract class SourceAnalyzerBase<TSource>
   ): Promise<boolean> {
     const analysis = await this.analyze(source, options);
 
-    return analysis.sourceType !== SourceType.MANUAL;
+    return analysis.sourceType !== 'manual';
   }
 
   async isSigned(
@@ -74,7 +73,7 @@ export abstract class SourceAnalyzerBase<TSource>
   ): Promise<boolean> {
     const analysis = await this.analyze(source, options);
 
-    if (analysis.sourceType === SourceType.MANUAL) {
+    if (analysis.sourceType === 'manual') {
       return false;
     }
 
@@ -87,7 +86,7 @@ export abstract class SourceAnalyzerBase<TSource>
   ): Promise<boolean> {
     const analysis = await this.analyze(source, options);
 
-    if (analysis.sourceType === SourceType.MANUAL) {
+    if (analysis.sourceType === 'manual') {
       return false;
     }
 
@@ -103,7 +102,7 @@ export abstract class SourceAnalyzerBase<TSource>
   ): Promise<void> {
     const analysis = await this.analyze(source, options);
 
-    if (analysis.sourceType === SourceType.MANUAL) {
+    if (analysis.sourceType === 'manual') {
       throw new Error('Source is not generated');
     }
 

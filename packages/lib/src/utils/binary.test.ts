@@ -7,8 +7,8 @@
 
 import { expect, test } from '@jest/globals';
 
-import * as defaultImpl from './binary.default.ts';
 import * as nodeImpl from './binary.node.ts';
+import * as defaultImpl from './binary.ts';
 
 const input = '0889777cb804e138e89cf6459dd58f49';
 const expected = 'CIl3fLgE4TjonPZFndWPSQ';
