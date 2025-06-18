@@ -1,4 +1,4 @@
 {
-  "extends": ["@ckwalsh/typescript-dev-configs/tsconfig.node.json"],
-  "include": ["./bin", "./src", "./tsup.config.ts"]
+  "files": [],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

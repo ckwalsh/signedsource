@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.node.json",
+  "include": [
+    "./**/*.json",
+    "./**/*.ts",
+    "../src/**/*.spec.ts",
+    "../src/**/*.test.ts"
+  ],
+  "compilerOptions": {
+    "types": ["node", "jest"]
+  },
+  "references": [{ "path": "../src/tsconfig.node.json" }]
+}

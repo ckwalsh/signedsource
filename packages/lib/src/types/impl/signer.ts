@@ -6,16 +6,16 @@
  */
 
 import type { ContentSignerIf } from '../content.ts';
-import type { SourceAnalyzerIf, SourceType } from './analyzer.ts';
+import type { SourceAnalyzerIf } from './analyzer.ts';
 
 export interface FullyGeneratedOptions {
-  sourceType: SourceType.GENERATED;
+  sourceType: 'generated';
   signer?: ContentSignerIf;
   manualSectionOverrides?: never;
 }
 
 export interface PartiallyGeneratedOptions {
-  sourceType: SourceType.PARTIALLY_GENERATED;
+  sourceType: 'partially-generated';
   signer?: ContentSignerIf;
   manualSectionOverrides?: Record<string, string>;
 }

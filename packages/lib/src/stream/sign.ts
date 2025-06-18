@@ -5,24 +5,23 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/* eslint-disable no-unused-labels */
-
-import type { HasherIf } from '#src/utils/hasher.ts';
-import { Hasher, NEVER_HASHER } from '#src/utils/hasher.ts';
 import type { Transformer } from 'node:stream/web';
 
 import { NEVER_CONTENT_SIGNER } from '../content/never.ts';
 import { DEFAULT_PLACEHOLDER_TOKEN, renderToken } from '../token.ts';
 import type { ContentSignerIf } from '../types/content.ts';
-import { SourceType } from '../types/impl/analyzer.ts';
+import type { SourceType } from '../types/impl/analyzer.ts';
+import type { HasherIf } from '../utils/hasher.ts';
+import { Hasher, NEVER_HASHER } from '../utils/hasher.ts';
 import type { Node } from './nodes.ts';
 
-export enum StalledDataType {
-  SIGNED_DATA,
-  MANUAL_DATA_EMBEDDED,
-  MANUAL_DATA_OVERRIDDEN,
-  MANUAL_DATA_OVERRIDE,
-}
+/* eslint-disable no-unused-labels */
+
+export type StalledDataType =
+  | 'signed'
+  | 'manual-embedded'
+  | 'manual-overridden'
+  | 'manual-override';
 
 interface StalledData {
   type: StalledDataType;
@@ -68,8 +67,8 @@ export class SignTransformer implements Transformer<Node, string> {
       case 'ManualSectionContentData':
         if (this.#stallEnqueue) {
           const type = this.#manualSectionContentOverridden
-            ? StalledDataType.MANUAL_DATA_OVERRIDDEN
-            : StalledDataType.MANUAL_DATA_EMBEDDED;
+            ? 'manual-overridden'
+            : 'manual-embedded';
           this.#stallBuffer.push({
             type,
             data: node.unsignedData,
@@ -90,7 +89,7 @@ export class SignTransformer implements Transformer<Node, string> {
           }
           if (this.#stallHash || this.#stallEnqueue) {
             this.#stallBuffer.push({
-              type: StalledDataType.SIGNED_DATA,
+              type: 'signed',
               data: node.signedData,
               needsHashing: this.#stallHash,
               needsEnqueue: this.#stallEnqueue,
@@ -102,9 +101,9 @@ export class SignTransformer implements Transformer<Node, string> {
     switch (node.type) {
       case 'SignedSourceType':
         switch (node.sourceType) {
-          case SourceType.GENERATED: {
+          case 'generated': {
             for (const d of this.#stallBuffer) {
-              if (d.type === StalledDataType.MANUAL_DATA_OVERRIDE) {
+              if (d.type === 'manual-override') {
                 continue;
               }
               if (d.needsHashing) {
@@ -119,12 +118,12 @@ export class SignTransformer implements Transformer<Node, string> {
             this.#manualSectionOverrides = {};
             break;
           }
-          case SourceType.PARTIALLY_GENERATED: {
+          case 'partially-generated': {
             for (const d of this.#stallBuffer) {
-              if (d.type === StalledDataType.MANUAL_DATA_OVERRIDDEN) {
+              if (d.type === 'manual-overridden') {
                 continue;
               }
-              if (d.type === StalledDataType.SIGNED_DATA && d.needsHashing) {
+              if (d.type === 'signed' && d.needsHashing) {
                 this.#hasher.update(d.data);
               }
               if (d.needsEnqueue) {
@@ -133,9 +132,9 @@ export class SignTransformer implements Transformer<Node, string> {
             }
             break;
           }
-          case SourceType.MANUAL: {
+          case 'manual': {
             for (const d of this.#stallBuffer) {
-              if (d.type === StalledDataType.MANUAL_DATA_OVERRIDE) {
+              if (d.type === 'manual-override') {
                 continue;
               }
               if (d.needsEnqueue) {
@@ -184,7 +183,7 @@ export class SignTransformer implements Transformer<Node, string> {
 
           if (this.#stallEnqueue) {
             this.#stallBuffer.push({
-              type: StalledDataType.MANUAL_DATA_OVERRIDE,
+              type: 'manual-override',
               data: overrideContents,
               needsHashing: false,
               needsEnqueue: true,
@@ -220,7 +219,7 @@ export class SignTransformer implements Transformer<Node, string> {
   ): Promise<void> {
     if (this.#sourceType === null) {
       throw new Error('Unknown source type');
-    } else if (this.#sourceType === SourceType.MANUAL) {
+    } else if (this.#sourceType === 'manual') {
       throw new Error('Cannot sign manual source');
     }
 
@@ -243,9 +242,9 @@ export class SignTransformer implements Transformer<Node, string> {
     controller.enqueue(renderToken(signature));
 
     const skipDataType =
-      this.#sourceType === SourceType.PARTIALLY_GENERATED
-        ? StalledDataType.MANUAL_DATA_OVERRIDDEN
-        : StalledDataType.MANUAL_DATA_OVERRIDE;
+      this.#sourceType === 'partially-generated'
+        ? 'manual-overridden'
+        : 'manual-override';
 
     for (const d of this.#stallBuffer) {
       if (d.type === skipDataType) {

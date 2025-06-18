@@ -11,9 +11,9 @@ import type { Transformer } from 'node:stream/web';
 
 import { parseToken, renderPlaceholderToken } from '../token.ts';
 import type { ContentSignerIf } from '../types/content.ts';
-import { SourceType } from '../types/impl/analyzer.ts';
+import type { SourceType } from '../types/impl/analyzer.ts';
 import type { Node } from './nodes.ts';
-import { StalledDataType } from './sign.ts';
+import type { StalledDataType } from './sign.ts';
 
 interface StalledData {
   type: StalledDataType;
@@ -56,8 +56,8 @@ export class UnsignTransformer implements Transformer<Node, string> {
       case 'ManualSectionContentData':
         if (this.#stallEnqueue) {
           const type = this.#manualSectionContentOverridden
-            ? StalledDataType.MANUAL_DATA_OVERRIDDEN
-            : StalledDataType.MANUAL_DATA_EMBEDDED;
+            ? 'manual-overridden'
+            : 'manual-embedded';
           this.#stallBuffer.push({
             type,
             data: node.unsignedData,
@@ -73,9 +73,9 @@ export class UnsignTransformer implements Transformer<Node, string> {
             const type =
               node.signedData === undefined
                 ? this.#manualSectionContentOverridden
-                  ? StalledDataType.MANUAL_DATA_OVERRIDDEN
-                  : StalledDataType.MANUAL_DATA_EMBEDDED
-                : StalledDataType.SIGNED_DATA;
+                  ? 'manual-overridden'
+                  : 'manual-embedded'
+                : 'signed';
             this.#stallBuffer.push({
               type,
               data,
@@ -90,9 +90,9 @@ export class UnsignTransformer implements Transformer<Node, string> {
     switch (node.type) {
       case 'SignedSourceType': {
         const skipDataType =
-          node.sourceType === SourceType.PARTIALLY_GENERATED
-            ? StalledDataType.MANUAL_DATA_OVERRIDDEN
-            : StalledDataType.MANUAL_DATA_OVERRIDE;
+          node.sourceType === 'partially-generated'
+            ? 'manual-overridden'
+            : 'manual-override';
         for (const d of this.#stallBuffer) {
           if (d.type === skipDataType) {
             continue;
@@ -130,7 +130,7 @@ export class UnsignTransformer implements Transformer<Node, string> {
 
           if (this.#stallEnqueue) {
             this.#stallBuffer.push({
-              type: StalledDataType.MANUAL_DATA_OVERRIDE,
+              type: 'manual-override',
               data: overrideContents,
             });
           } else {
@@ -172,7 +172,7 @@ export class UnsignTransformer implements Transformer<Node, string> {
   flush(_controller: TransformStreamDefaultController<string>) {
     if (this.#sourceType === null) {
       throw new Error('Unknown source type');
-    } else if (this.#sourceType === SourceType.MANUAL) {
+    } else if (this.#sourceType === 'manual') {
       throw new Error('Cannot unsign manual source');
     }
 

@@ -8,7 +8,7 @@
  */
 
 import { Builtins, Cli } from 'clipanion';
-import * as path from 'path';
+import * as path from 'node:path';
 
 import pkg from '../package.json' with { type: 'json' };
 import {
@@ -16,7 +16,7 @@ import {
   SignCommand,
   UnsignCommand,
   VerifyCommand,
-} from '../src/index.js';
+} from '../src/index.ts';
 
 const [_node, app, ...args] = process.argv;
 
