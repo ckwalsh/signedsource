@@ -17,6 +17,7 @@ requiredScripts:
   - attw
   - build
   - build:watch
+  - clean
   - knip
   - lint
   - lint:fix

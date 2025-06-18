@@ -64,9 +64,16 @@ jobs:
         shell: bash
 
       - name: Run Tests
-        run: pnpm run test
+        run: |
+          pnpm run test
+        shell: bash
+
+      - name: Run knip
+        run: |
+          pnpm run knip
         shell: bash
 
       - name: Run AreTheTypesWrong
-        run: pnpm run attw
+        run: |
+          pnpm run attw
         shell: bash

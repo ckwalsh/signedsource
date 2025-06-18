@@ -1,5 +1,6 @@
-pnpm m install --frozen-lockfile
+pnpm install --frozen-lockfile
 pnpm run tsc
+pnpm run clean
 pnpm run build
 if [ -n "${HG}" ]; then pnpm run lint-staged --no-stash --diff HEAD; else pnpm run lint-staged; fi;
 pnpm run knip

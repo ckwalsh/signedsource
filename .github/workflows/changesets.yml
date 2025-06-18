@@ -15,13 +15,21 @@ jobs:
     runs-on: homelab
     environment: release
     steps:
-      - name: Checkout code repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup checkout
-        uses: ./.github/actions/setup
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version-file: '.node-version'
+
+      - name: Install dependencies
+        run: |
+          pnpm install
+        shell: bash
 
       - name: Create and publish versions
         uses: changesets/action@v1
