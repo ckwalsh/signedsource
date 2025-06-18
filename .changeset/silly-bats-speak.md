@@ -1,14 +1,25 @@
 ---
 '@ckwalsh/signedsource': minor
+'@ckwalsh/signedsource-cli': minor
 ---
 
-Rewrote just about everything
+# Rewrite ALL THE THINGS!
 
-- Complete API rewrite of lib
-- Rewrite of CLI
-- Delete eslint workspace package. It will be re-added when I implement a
-  non-async export for nodejs usage only, since eslint rules don't support async
-  code.
+Rewrote just about everything.
+
+Still not completely satisfied, so not bumping to 1.0.0 yet.
+
+- Complete API change
+- Complete Implementation change (to streams based)
+
+## Future Work
+
+- Synchronous API (NodeJS only)
+
+## Workspace Changes
+
+- Deleted eslint workspace package. It will be re-added when I implement the
+  synchronous API, since eslint rules don't support async logic.
 - Delete dev workspace package. Now using `@ckwalsh/typescript-dev-configs`
 - Rearrange a ton of devtools. Trying to unify them in the root package and
   share configs as much as possible.
