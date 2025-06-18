@@ -15,38 +15,32 @@
     "LICENSE"
   ],
   "type": "module",
-  "imports": {
-    "#*.ts": {
-      "node": "./*.node.ts",
-      "default": "./*.default.ts"
-    }
-  },
   "exports": {
     "source": "./src/index.ts",
     "node": {
       "import": {
-        "types": "./dist/node/index.d.ts",
-        "import": "./dist/node/index.js"
+        "types": "./dist/node/src/index.d.ts",
+        "import": "./dist/node/src/index.js"
       },
       "require": {
-        "types": "./dist/node/index.d.cts",
-        "require": "./dist/node/index.cjs"
+        "types": "./dist/node/src/index.d.cts",
+        "require": "./dist/node/src/index.cjs"
       }
     },
     "default": {
       "import": {
-        "types": "./dist/neutral/index.d.ts",
-        "import": "./dist/neutral/index.js"
+        "types": "./dist/neutral/src/index.d.ts",
+        "import": "./dist/neutral/src/index.js"
       },
       "require": {
-        "types": "./dist/neutral/index.d.cts",
-        "require": "./dist/neutral/index.cjs"
+        "types": "./dist/neutral/src/index.d.cts",
+        "require": "./dist/neutral/src/index.cjs"
       }
     }
   },
-  "module": "./dist/neutral/index.js",
-  "types": "./dist/neutral/index.d.ts",
-  "main": "./dist/neutral/index.cjs",
+  "module": "./dist/neutral/src/index.js",
+  "types": "./dist/neutral/src/index.d.ts",
+  "main": "./dist/neutral/src/index.cjs",
   "directories": {
     "lib": "dist"
   },
@@ -56,17 +50,18 @@
     "directory": "packages/lib"
   },
   "scripts": {
-    "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw attw",
+    "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw",
     "build": "tsup",
     "build:watch": "tsup --watch",
+    "clean": "rm -rf ./dist ./node_modules/.cache",
     "generate-docs": "typedoc --excludeInternal",
     "knip": "pnpm run -w knip -W $(realpath --relative-to ../../ .)",
     "lint": "pnpm run -w lint $(realpath --relative-to ../../ .)",
     "lint:fix": "pnpm run -w lint:fix $(realpath --relative-to ../../ .)",
     "test": "pnpm run -w test --roots $(realpath --relative-to ../../ .)",
-    "tsc": "tsc --noEmit",
-    "tsc:watch": "tsc --noEmit --watch",
-    "prepare": "tsup --silent --clean"
+    "tsc": "tsc --build",
+    "tsc:watch": "tsc --build --watch",
+    "prepare": "rm -rf ./dist && tsup --silent"
   },
   "devEngines": {
     "packageManager": {
@@ -79,14 +74,15 @@
     "jose": "^6.0.11"
   },
   "devDependencies": {
-    "@ckwalsh/typescript-dev-configs": "github:ckwalsh/typescript-dev-configs#main",
-    "@jest/globals": "^30.0.0",
-    "@tsconfig/node24": "^24.0.1",
+    "@ckwalsh/typescript-dev-configs": "catalog:",
+    "@jest/globals": "catalog:",
+    "@tsconfig/node": "catalog:",
+    "@tsconfig/recommended": "catalog:",
     "@types/crypto-js": "^4.2.2",
-    "@types/node": "^24.0.1",
-    "knip": "^5.61.0",
-    "tsup": "^8.5.0",
+    "@types/node": "catalog:",
+    "knip": "catalog:",
+    "tsup": "catalog:",
     "typedoc": "^0.28.5",
-    "typescript": "^5.8.3"
+    "typescript": "catalog:"
   }
 }

@@ -8,7 +8,6 @@
 import { describe, expect, test } from '@jest/globals';
 import fs from 'node:fs';
 
-import { SourceType } from '../../src/index.ts';
 import type { InvalidGeneratedFile } from '../utils/files.ts';
 import { getInputFiles } from '../utils/files.ts';
 import { getSourceAnalyzers, getSourceSigners } from '../utils/signer.ts';
@@ -21,7 +20,7 @@ const [files, signers, analyzers] = await Promise.all([
 
 const invalidFiles: InvalidGeneratedFile[] = files.filter(
   (file): file is InvalidGeneratedFile =>
-    file.sourceType !== SourceType.MANUAL && !file.isWellFormed,
+    file.sourceType !== 'manual' && !file.isWellFormed,
 );
 
 describe.each(invalidFiles)('invalid file $name', ({ absPath }) => {
