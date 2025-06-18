@@ -1,9 +1,8 @@
 ---
 '@ckwalsh/signedsource': minor
-'@ckwalsh/signedsource-cli': minor
 ---
 
-# Rewrite ALL THE THINGS!
+Rewrite ALL THE THINGS!
 
 Rewrote just about everything.
 
@@ -12,11 +11,11 @@ Still not completely satisfied, so not bumping to 1.0.0 yet.
 - Complete API change
 - Complete Implementation change (to streams based)
 
-## Future Work
+**Future Work:**
 
 - Synchronous API (NodeJS only)
 
-## Workspace Changes
+**Workspace Changes:**
 
 - Deleted eslint workspace package. It will be re-added when I implement the
   synchronous API, since eslint rules don't support async logic.
