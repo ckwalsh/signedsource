@@ -6,9 +6,9 @@
  */
 
 import { Command, Option } from 'clipanion';
-import fs from 'fs/promises';
-import path from 'path';
-import { Readable, Writable } from 'stream';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { Readable, Writable } from 'node:stream';
 
 export abstract class SignedSourceCommandBase extends Command {
   file = Option.String({ required: false });

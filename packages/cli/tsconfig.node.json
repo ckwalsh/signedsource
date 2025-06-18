@@ -6,8 +6,11 @@
   ],
   "include": ["./*.ts"],
   "compilerOptions": {
-    "outDir": "./dist/node",
-    "target": "es2022"
+    "outDir": "./dist/node"
   },
-  "references": [{ "path": "./src/tsconfig.node.json" }, { "path": "./test" }]
+  "references": [
+    { "path": "./bin" },
+    { "path": "./src/tsconfig.node.json" },
+    { "path": "./test" }
+  ]
 }
