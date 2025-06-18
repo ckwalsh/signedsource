@@ -61,7 +61,7 @@
     "test": "pnpm run -w test --roots $(realpath --relative-to ../../ .)",
     "tsc": "tsc --build",
     "tsc:watch": "tsc --build --watch",
-    "prepare": "rm -rf ./dist && tsup --silent"
+    "prepare": "pnpm run clean && tsup --silent"
   },
   "devEngines": {
     "packageManager": {
