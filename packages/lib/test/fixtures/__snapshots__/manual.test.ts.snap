@@ -1,8 +1,8 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`manual file manual/foobar.txt can be analyzed by SourceSigner (Multitype) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -10,7 +10,7 @@ exports[`manual file manual/foobar.txt can be analyzed by SourceSigner (Multityp
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (Default) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -18,7 +18,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -26,7 +26,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -34,7 +34,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -42,7 +42,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentSigner (P-256, Embed JWK)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -50,7 +50,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PrivKey)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -58,7 +58,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (Ed25519, PubKey)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -66,7 +66,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PrivKey)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -74,7 +74,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (JWSContentVerifier (P-256, PubKey)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -82,7 +82,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (LegacyContentSigner) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -90,7 +90,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceAnalyzer (
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (Default) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -98,7 +98,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (De
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -106,7 +106,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JW
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (Ed25519, Embed JWK)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -114,7 +114,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JW
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -122,7 +122,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JW
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JWSContentSigner (P-256, Embed JWK)) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 
@@ -130,7 +130,7 @@ exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (JW
 
 exports[`manual file manual/foobar.txt can be analyzed by StringSourceSigner (LegacyContentSigner) 1`] = `
 {
-  "sourceType": 2,
+  "sourceType": "manual",
 }
 `;
 

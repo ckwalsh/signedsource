@@ -5,17 +5,16 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/* eslint-disable no-unused-labels */
-
-import type { HasherIf } from '#src/utils/hasher.ts';
-import { Hasher, NEVER_HASHER } from '#src/utils/hasher.ts';
 import type { UnderlyingSink } from 'node:stream/web';
 
 import { DEFAULT_PLACEHOLDER_TOKEN, parseToken } from '../token.ts';
-import type { SourceAnalysis } from '../types/impl/analyzer.ts';
-import { SourceType } from '../types/impl/analyzer.ts';
+import type { SourceAnalysis, SourceType } from '../types/impl/analyzer.ts';
 import type { EmbeddedSignatureToken } from '../types/tokens.ts';
+import type { HasherIf } from '../utils/hasher.ts';
+import { Hasher, NEVER_HASHER } from '../utils/hasher.ts';
 import type { Node } from './nodes.ts';
+
+/* eslint-disable no-unused-labels */
 
 interface StalledData {
   signed: boolean;
@@ -59,7 +58,7 @@ export class AnalyzeSink implements UnderlyingSink<Node> {
     switch (node.type) {
       case 'SignedSourceType':
         switch (node.sourceType) {
-          case SourceType.GENERATED: {
+          case 'generated': {
             for (const d of this.#stallBuffer) {
               this.#hasher.update(d.data);
             }
@@ -69,7 +68,7 @@ export class AnalyzeSink implements UnderlyingSink<Node> {
             this.#manualSections = {};
             break;
           }
-          case SourceType.PARTIALLY_GENERATED: {
+          case 'partially-generated': {
             for (const d of this.#stallBuffer) {
               if (d.signed) {
                 this.#hasher.update(d.data);
@@ -77,7 +76,7 @@ export class AnalyzeSink implements UnderlyingSink<Node> {
             }
             break;
           }
-          case SourceType.MANUAL: {
+          case 'manual': {
             this.#manualSectionOpen = false;
             this.#manualSectionId = '';
             this.#manualSectionChunks.length = 0;
@@ -153,11 +152,11 @@ export class AnalyzeSink implements UnderlyingSink<Node> {
       throw new Error('Unknown source type');
     }
 
-    if (this.#sourceType === SourceType.MANUAL) {
+    if (this.#sourceType === 'manual') {
       DEBUG: if (this.#stallBuffer.length > 0)
         throw new Error('StallBuffer should be empty for manual sources');
 
-      return { sourceType: SourceType.MANUAL };
+      return { sourceType: 'manual' };
     }
 
     if (this.#embeddedSignature === null) {
@@ -173,15 +172,15 @@ export class AnalyzeSink implements UnderlyingSink<Node> {
 
     const contentHashes = await this.#hasher.digest();
 
-    if (this.#sourceType === SourceType.GENERATED) {
+    if (this.#sourceType === 'generated') {
       return {
-        sourceType: SourceType.GENERATED,
+        sourceType: 'generated',
         embeddedSignature: this.#embeddedSignature,
         contentHashes,
       };
     } else {
       return {
-        sourceType: SourceType.PARTIALLY_GENERATED,
+        sourceType: 'partially-generated',
         manualSections: this.#manualSections,
         embeddedSignature: this.#embeddedSignature,
         contentHashes,

@@ -8,15 +8,16 @@
   "scripts": {
     "attw": "pnpm run -r attw",
     "build": "pnpm run -r build",
-    "knip": "knip --cache",
+    "clean": "rm -rf ./dist ./node_modules/.cache && pnpm run -r clean",
+    "knip": "knip --treat-config-hints-as-errors",
     "lint": "eslint --cache",
     "lint:fix": "eslint --cache --fix",
     "lint-staged": "lint-staged",
     "test": "node --experimental-vm-modules --disable-warning=ExperimentalWarning ./node_modules/jest/bin/jest.js",
-    "tsc": "pnpm run -r tsc",
+    "tsc": "tsc --build",
+    "tsc:watch": "tsc --build --watch",
     "prepare": "husky",
-    ":attw:wrapper": "node --experimental-strip-types --disable-warning=ExperimentalWarning ./scripts/attw.ts",
-    ":build:wrapper": "node --experimental-strip-types --disable-warning=ExperimentalWarning ./scripts/tsup.ts"
+    "ci:publish": "pnpm publish -r"
   },
   "keywords": [],
   "author": "Cullen Walsh",
@@ -37,19 +38,19 @@
   },
   "type": "module",
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.18.2",
     "@changesets/cli": "^2.29.4",
-    "@ckwalsh/typescript-dev-configs": "github:ckwalsh/typescript-dev-configs#main",
-    "@trivago/prettier-plugin-sort-imports": "github:ckwalsh/prettier-plugin-sort-imports",
-    "@tsconfig/node24": "^24.0.1",
-    "@types/node": "^24.0.1",
-    "eslint": "^9.28.0",
+    "@ckwalsh/prettier-plugin-sort-imports": "^5.2.3",
+    "@ckwalsh/typescript-dev-configs": "catalog:",
+    "@tsconfig/node": "catalog:",
+    "@types/node": "catalog:",
+    "eslint": "^9.29.0",
+    "eslint-import-resolver-typescript": "^4.4.3",
     "husky": "^9.1.7",
-    "jest": "^30.0.0",
-    "knip": "^5.61.0",
-    "lint-staged": "^16.1.0",
+    "jest": "catalog:",
+    "knip": "catalog:",
+    "lint-staged": "^16.1.2",
     "prettier": "^3.5.3",
-    "ts-jest": "^29.4.0",
-    "typescript": "^5.8.3"
+    "ts-jest": "catalog:",
+    "typescript": "catalog:"
   }
 }
