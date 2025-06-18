@@ -6,8 +6,8 @@
  */
 
 import { Command, Option } from 'clipanion';
-import fs from 'fs/promises';
 import type { JWK } from 'jose';
+import fs from 'node:fs/promises';
 
 import type { TransformOptions } from '@ckwalsh/signedsource';
 import {

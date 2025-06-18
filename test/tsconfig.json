@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "@tsconfig/node/tsconfig.json",
+    "@ckwalsh/typescript-dev-configs/tsconfig.node.json"
+  ],
+  "include": [
+    "../packages/*/test/**/*.json",
+    "../packages/*/test/**/*.ts",
+    "../packages/*/src/**/*.spec.ts",
+    "../packages/*/src/**/*.test.ts"
+  ],
+  // "exclude": ["../packages/*/dist"],
+  "compilerOptions": {
+    "outDir": "../dist/test",
+    "rootDir": "../",
+    "types": ["node", "jest"]
+  }
+}

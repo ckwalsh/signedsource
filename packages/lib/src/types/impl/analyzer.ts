@@ -7,11 +7,7 @@
 
 import type { EmbeddedSignatureToken, SignatureToken } from '../tokens.ts';
 
-export enum SourceType {
-  GENERATED,
-  PARTIALLY_GENERATED,
-  MANUAL,
-}
+export type SourceType = 'generated' | 'partially-generated' | 'manual';
 
 export interface SignedContentHashes {
   sha256: string;
@@ -19,21 +15,21 @@ export interface SignedContentHashes {
 }
 
 export interface FullyGeneratedSourceAnalysis {
-  sourceType: SourceType.GENERATED;
+  sourceType: 'generated';
   manualSections?: never;
   embeddedSignature: EmbeddedSignatureToken;
   contentHashes: SignedContentHashes;
 }
 
 export interface PartiallyGeneratedSourceAnalysis {
-  sourceType: SourceType.PARTIALLY_GENERATED;
+  sourceType: 'partially-generated';
   manualSections: Record<string, string>;
   embeddedSignature: EmbeddedSignatureToken;
   contentHashes: SignedContentHashes;
 }
 
 export interface ManualSourceAnalysis {
-  sourceType: SourceType.MANUAL;
+  sourceType: 'manual';
   manualSections?: never;
   embeddedSignature?: never;
   contentHashes?: never;
@@ -45,7 +41,7 @@ export type SourceAnalysis =
   | ManualSourceAnalysis;
 
 export interface AnalyzeOptions {
-  sourceType?: Exclude<SourceType, SourceType.MANUAL>;
+  sourceType?: Exclude<SourceType, 'manual'>;
 }
 
 export interface ValidateOptions extends AnalyzeOptions {

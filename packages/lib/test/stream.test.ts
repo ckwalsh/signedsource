@@ -9,11 +9,7 @@ import { expect, test } from '@jest/globals';
 import type { UnderlyingSink } from 'node:stream/web';
 
 import type { SourceAnalysis } from '../src/index.ts';
-import {
-  SourceType,
-  StreamSourceAnalyzer,
-  StreamSourceSigner,
-} from '../src/index.ts';
+import { StreamSourceAnalyzer, StreamSourceSigner } from '../src/index.ts';
 
 const inputSource = `
 /* eslint-disable */
@@ -24,7 +20,7 @@ const foo = 'bar';
 `;
 
 const expectedAnalysis: SourceAnalysis = {
-  sourceType: SourceType.GENERATED,
+  sourceType: 'generated',
   embeddedSignature: {
     type: 'SignaturePlaceholderToken',
     paddingLength: 8,
