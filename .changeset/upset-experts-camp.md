@@ -2,7 +2,7 @@
 '@ckwalsh/signedsource-cli': minor
 ---
 
-# Rewrite ALL THE THINGS!
+Rewrite ALL THE THINGS!
 
 Rewrote just about everything.
 
