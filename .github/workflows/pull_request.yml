@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: read
 
-    runs-on: homelab
+    runs-on: default
 
     timeout-minutes: 15
 
