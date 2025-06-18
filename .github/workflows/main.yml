@@ -13,7 +13,7 @@ jobs:
       contents: write
       pull-requests: write
 
-    runs-on: homelab
+    runs-on: default
     environment: release
 
     timeout-minutes: 15
