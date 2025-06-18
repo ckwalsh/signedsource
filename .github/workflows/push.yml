@@ -1,4 +1,4 @@
-name: Changesets
+name: Push to Main
 
 on:
   push:
@@ -6,14 +6,21 @@ on:
       - main
 
 jobs:
-  version:
-    name: Handle changesets
+  main:
+    name: Build, Test, and Update Versions
+
     permissions:
-      contents: write
+      contents: read
       pull-requests: write
-    timeout-minutes: 15
+
     runs-on: homelab
     environment: release
+
+    timeout-minutes: 15
+
+    env:
+      HUSKY: 0
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -29,6 +36,26 @@ jobs:
       - name: Install dependencies
         run: |
           pnpm install
+        shell: bash
+
+      - name: Run Linter
+        run: |
+          pnpm run lint
+        shell: bash
+
+      - name: Run knip
+        run: |
+          pnpm run knip
+        shell: bash
+
+      - name: Build and Run attw
+        run: |
+          pnpm run attw
+        shell: bash
+
+      - name: Run Tests
+        run: |
+          pnpm run test
         shell: bash
 
       - name: Create and publish versions
