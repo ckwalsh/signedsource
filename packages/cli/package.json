@@ -14,7 +14,7 @@
     "LICENSE"
   ],
   "bin": {
-    "signedsource": "dist/bin/signedsource.cjs"
+    "signedsource": "dist/node/bin/signedsource.cjs"
   },
   "type": "module",
   "repository": {
@@ -23,16 +23,17 @@
     "directory": "packages/cli"
   },
   "scripts": {
-    "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw attw",
+    "attw": "pnpm-pack-and-attw --quiet || pnpm-pack-and-attw",
     "build": "tsup",
     "build:watch": "tsup --watch",
+    "clean": "rm -rf ./dist ./node_modules/.cache",
     "knip": "pnpm run -w knip -W $(realpath --relative-to ../../ .)",
     "lint": "pnpm run -w lint $(realpath --relative-to ../../ .)",
     "lint:fix": "pnpm run -w lint:fix $(realpath --relative-to ../../ .)",
     "test": "pnpm run -w test --roots $(realpath --relative-to ../../ .)",
-    "tsc": "tsc --noEmit",
-    "tsc:watch": "tsc --noEmit --watch",
-    "prepare": "tsup --silent --clean"
+    "tsc": "tsc --build",
+    "tsc:watch": "tsc --build --watch",
+    "prepare": "rm -rf ./dist && tsup --silent"
   },
   "devEngines": {
     "packageManager": {
@@ -45,12 +46,11 @@
     "clipanion": "4.0.0-rc.4"
   },
   "devDependencies": {
-    "@ckwalsh/typescript-dev-configs": "github:ckwalsh/typescript-dev-configs#main",
-    "@tsconfig/node24": "^24.0.1",
-    "@types/node": "^24.0.1",
+    "@ckwalsh/typescript-dev-configs": "catalog:",
+    "@types/node": "catalog:",
     "jose": "^6.0.11",
-    "knip": "^5.61.0",
-    "tsup": "^8.5.0",
-    "typescript": "^5.8.3"
+    "knip": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:"
   }
 }
