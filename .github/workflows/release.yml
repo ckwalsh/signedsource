@@ -46,7 +46,7 @@ jobs:
         with:
           commit: 'chore: update versions'
           title: 'chore: update versions'
-          publish: 'true'
+          publish: 'pnpm ci:publish --dry-run'
           setupGitUser: true
           commitMode: github-api
           createGithubReleases: false
