@@ -79,4 +79,8 @@ jobs:
       - name: Schedule release workflow
         if: (steps.publishDryRun.outputs.publishCount || 0) > 0
         run: |
-          gh workflow run release.yml
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -d '{"ref":"${{ github.ref_name }}"}' \
+            "${{ github.api_url }}/repos/${{ github.repository }}/actions/workflows/release.yml/dispatches"
