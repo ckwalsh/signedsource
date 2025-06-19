@@ -17,7 +17,7 @@
     "tsc": "tsc --build",
     "tsc:watch": "tsc --build --watch",
     "prepare": "husky",
-    "ci:publish": "pnpm publish -r"
+    "ci:publish": "pnpm publish --recursive"
   },
   "keywords": [],
   "author": "Cullen Walsh",

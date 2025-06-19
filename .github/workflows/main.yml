@@ -10,7 +10,9 @@ jobs:
     name: Build and Test
 
     permissions:
-      contents: read
+      actions: write
+      contents: write
+      pull-requests: write
 
     runs-on: default
 
@@ -39,6 +41,17 @@ jobs:
         run: |
           pnpm install
 
+      - id: changesets
+        name: Process Changesets
+        uses: changesets/action@v1
+        with:
+          commit: 'chore: update versions'
+          title: 'chore: update versions'
+          setupGitUser: true
+          commitMode: github-api
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Run Linter
         run: |
           pnpm run lint
@@ -54,3 +67,16 @@ jobs:
       - name: Run Tests
         run: |
           pnpm run test
+
+      - id: publishDryRun
+        name: Check for unpublished packages
+        if: steps.changesets.outputs.hasChangesets == 'false'
+        run: |
+          pnpm run publish --recursive --dry-run --report-summary
+          echo -n "publishCount=" >> "$GITHUB_OUTPUT"
+          jq '.publishedPackages[].name' pnpm-publish-summary.json | wc -l >> "$GITHUB_OUTPUT"
+
+      - name: Schedule release workflow
+        if: (steps.publishDryRun.outputs.publishCount || 0) > 0
+        run: |
+          gh workflow run release.yml
