@@ -72,9 +72,9 @@ jobs:
         name: Check for unpublished packages
         if: steps.changesets.outputs.hasChangesets == 'false'
         run: |
-          pnpm run publish --recursive --dry-run --report-summary
+          pnpm publish --recursive --dry-run --report-summary
           echo -n "publishCount=" >> "$GITHUB_OUTPUT"
-          jq '.publishedPackages[].name' pnpm-publish-summary.json | wc -l >> "$GITHUB_OUTPUT"
+          jq '.publishedPackages[].name' ./pnpm-publish-summary.json | wc -l >> "$GITHUB_OUTPUT"
 
       - name: Schedule release workflow
         if: (steps.publishDryRun.outputs.publishCount || 0) > 0
