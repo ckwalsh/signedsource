@@ -1,4 +1,4 @@
-name: Push to main
+name: Build and Test
 
 on:
   push:
@@ -7,14 +7,12 @@ on:
 
 jobs:
   main:
-    name: Build, Test, and Update Versions
+    name: Build and Test
 
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
 
     runs-on: default
-    environment: release
 
     timeout-minutes: 15
 
@@ -28,6 +26,10 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
 
+      - name: Use shared pnpm store
+        run: |
+          pnpm config set store-dir "$RUNNER_TOOL_CACHE/.pnpm-store"
+
       - name: Setup node
         uses: actions/setup-node@v4
         with:
@@ -36,34 +38,19 @@ jobs:
       - name: Install dependencies
         run: |
           pnpm install
-        shell: bash
 
       - name: Run Linter
         run: |
           pnpm run lint
-        shell: bash
 
       - name: Run knip
         run: |
           pnpm run knip
-        shell: bash
 
       - name: Build and Run attw
         run: |
           pnpm run attw
-        shell: bash
 
       - name: Run Tests
         run: |
           pnpm run test
-        shell: bash
-
-      - name: Create and publish versions
-        uses: changesets/action@v1
-        with:
-          commit: 'chore: update versions'
-          title: 'chore: update versions'
-          publish: pnpm ci:publish
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
