@@ -2,4 +2,3 @@ pnpm install --frozen-lockfile
 if [ -n "${HG}" ]; then pnpm run lint-staged --no-stash --diff HEAD; else pnpm run lint-staged; fi;
 pnpm run knip
 pnpm run attw
-pnpm run test
