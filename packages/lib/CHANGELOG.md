@@ -1,5 +1,11 @@
 # @ckwalsh/signedsource
 
+## 0.3.2
+
+### Patch Changes
+
+- 94dad89: Bump version to test release workflow
+
 ## 0.3.1
 
 ### Patch Changes
