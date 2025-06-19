@@ -53,19 +53,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Print changesets output
+        run: |
+          echo "Changesets output: ${{ steps.changesets.outputs.published }}"
+          echo "Changesets packages: ${{ steps.changesets.outputs.publishedPackages }}"
+
     outputs:
       published: ${{ steps.changesets.outputs.published }}
 
   test-release:
     name: Test Release
     needs: changesets
-    if: needs.changesets.outputs.published == 'true'
 
     permissions:
       contents: read
 
     runs-on: default
 
+    continue-on-error: false
     timeout-minutes: 15
 
     env:
@@ -73,44 +78,54 @@ jobs:
 
     steps:
       - name: Checkout code
+        if: needs.changesets.outputs.published == 'true'
         uses: actions/checkout@v4
 
       - name: Setup pnpm
+        if: needs.changesets.outputs.published == 'true'
         uses: pnpm/action-setup@v4
 
       - name: Setup node
+        if: needs.changesets.outputs.published == 'true'
         uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
 
       - name: Use shared pnpm store
+        if: needs.changesets.outputs.published == 'true'
         run: |
           pnpm config set store-dir "$RUNNER_TOOL_CACHE/.pnpm-store"
 
       - name: Install dependencies
+        if: needs.changesets.outputs.published == 'true'
         run: |
           pnpm install
 
       - name: Run Linter
+        if: needs.changesets.outputs.published == 'true'
         run: |
           pnpm run lint
 
       - name: Run knip
+        if: needs.changesets.outputs.published == 'true'
         run: |
           pnpm run knip
 
       - name: Build and Run attw
+        if: needs.changesets.outputs.published == 'true'
         run: |
           pnpm run attw
 
       - name: Run Tests
+        if: needs.changesets.outputs.published == 'true'
         run: |
           pnpm run test
 
   publish:
     name: Publish Packages
-    needs: test-release
-    if: needs.test-release.result == 'success'
+    needs:
+      - changesets
+      - test-release
 
     permissions:
       id-token: write
@@ -128,21 +143,36 @@ jobs:
 
     steps:
       - name: Checkout code
+        if:
+          needs.changesets.outputs.published == 'true' &&
+          needs.test-release.result == 'success'
         uses: actions/checkout@v4
 
       - name: Setup pnpm
+        if:
+          needs.changesets.outputs.published == 'true' &&
+          needs.test-release.result == 'success'
         uses: pnpm/action-setup@v4
 
       - name: Setup node
+        if:
+          needs.changesets.outputs.published == 'true' &&
+          needs.test-release.result == 'success'
         uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
 
       - name: Install dependencies
+        if:
+          needs.changesets.outputs.published == 'true' &&
+          needs.test-release.result == 'success'
         run: |
           pnpm install
 
       - name: Create and publish versions
+        if:
+          needs.changesets.outputs.published == 'true' &&
+          needs.test-release.result == 'success'
         uses: changesets/action@v1
         with:
           commit: 'chore: update versions'
