@@ -10,7 +10,7 @@ jobs:
     name: Process Changesets
 
     permissions:
-      contents: write
+      contents: read
       pull-requests: write
 
     runs-on: default
@@ -31,6 +31,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
+
+      - name: Install dependencies
+        run: |
+          pnpm install
 
       - id: changesets
         name: Create and publish versions
