@@ -137,3 +137,6 @@ dist
 
 # vim files
 *.swp
+
+# Release artifacts
+pnpm-publish-summary.json
