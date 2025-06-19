@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  process:
-    name: Process Changesets
+  changesets:
+    name: Changesets
 
     permissions:
       contents: read
@@ -32,6 +32,10 @@ jobs:
         with:
           node-version-file: '.node-version'
 
+      - name: Use shared pnpm store
+        run: |
+          pnpm config set store-dir "$RUNNER_TOOL_CACHE/.pnpm-store"
+
       - name: Install dependencies
         run: |
           pnpm install
@@ -52,10 +56,61 @@ jobs:
     outputs:
       published: ${{ steps.changesets.outputs.published }}
 
+  test-release:
+    name: Test Release
+    needs: changesets
+    if: needs.changesets.outputs.published == 'true'
+
+    permissions:
+      contents: read
+
+    runs-on: default
+
+    timeout-minutes: 15
+
+    env:
+      HUSKY: 0
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+
+      - name: Use shared pnpm store
+        run: |
+          pnpm config set store-dir "$RUNNER_TOOL_CACHE/.pnpm-store"
+
+      - name: Install dependencies
+        run: |
+          pnpm install
+
+      - name: Run Linter
+        run: |
+          pnpm run lint
+
+      - name: Run knip
+        run: |
+          pnpm run knip
+
+      - name: Build and Run attw
+        run: |
+          pnpm run attw
+
+      - name: Run Tests
+        run: |
+          pnpm run test
+
   publish:
     name: Publish Packages
-    needs: process
-    if: needs.process.outputs.published == 'true'
+    needs: test-release
+    if: needs.test-release.result == 'success'
 
     permissions:
       id-token: write
