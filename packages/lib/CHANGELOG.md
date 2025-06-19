@@ -1,5 +1,17 @@
 # @ckwalsh/signedsource
 
+## 0.3.1
+
+### Patch Changes
+
+- 13f4d32: Generate provenance statements for npm
+
+  Setting up a GitHub Actions workflow based on
+  https://docs.npmjs.com/generating-provenance-statements
+
+  If this was set up correctly, the GitHub-hosted runner should only be
+  triggered if changesets attempts to publish from the self-hosted runner.
+
 ## 0.3.0
 
 ### Minor Changes
