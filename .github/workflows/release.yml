@@ -1,0 +1,97 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  process:
+    name: Process Changesets
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    runs-on: default
+
+    timeout-minutes: 15
+
+    env:
+      HUSKY: 0
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+
+      - id: changesets
+        name: Create and publish versions
+        uses: changesets/action@v1
+        with:
+          commit: 'chore: update versions'
+          title: 'chore: update versions'
+          publish: 'true'
+          setupGitUser: true
+          commitMode: github-api
+          createGithubReleases: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    outputs:
+      published: ${{ steps.changesets.outputs.published }}
+
+  publish:
+    name: Publish Packages
+    needs: process
+    if: needs.process.outputs.published == 'true'
+
+    permissions:
+      id-token: write
+      contents: write
+      pull-requests: write
+
+    runs-on: ubuntu-latest
+    environment: release
+
+    timeout-minutes: 15
+
+    env:
+      HUSKY: 0
+      NPM_CONFIG_PROVENANCE: true
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+
+      - name: Install dependencies
+        run: |
+          pnpm install
+
+      - name: Create and publish versions
+        uses: changesets/action@v1
+        with:
+          commit: 'chore: update versions'
+          title: 'chore: update versions'
+          publish: 'pnpm ci:publish'
+          setupGitUser: true
+          commitMode: github-api
+          createGithubReleases: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
