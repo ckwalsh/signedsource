@@ -3,11 +3,11 @@ packages:
 
 catalog:
   "@ckwalsh/typescript-dev-configs": ^1.0.3
-  "@jest/globals": ^30.0.0
+  "@jest/globals": ^30.0.2
   "@tsconfig/node": npm:@tsconfig/node20@^20.1.6
   "@tsconfig/recommended": ^1.0.10
-  "@types/node": ^20.19.1
-  jest: ^30.0.0
+  "@types/node": ^24.0.3
+  jest: ^30.0.2
   knip: ^5.61.2
   tsup: ^8.5.0
   ts-jest: ^29.4.0
