@@ -39,7 +39,7 @@
   "type": "module",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
-    "@changesets/cli": "^2.29.4",
+    "@changesets/cli": "^2.29.5",
     "@ckwalsh/prettier-plugin-sort-imports": "^5.2.3",
     "@ckwalsh/typescript-dev-configs": "catalog:",
     "@tsconfig/node": "catalog:",
@@ -50,7 +50,7 @@
     "jest": "catalog:",
     "knip": "catalog:",
     "lint-staged": "^16.1.2",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "ts-jest": "catalog:",
     "typescript": "catalog:"
   }
