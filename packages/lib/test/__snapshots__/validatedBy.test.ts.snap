@@ -1,0 +1,937 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with default signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 embed jwk signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@generated source signed with ed25519 signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with md5 signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 embed jwk signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with p256 signer validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with p256 signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@generated source signed with symmetric signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with default signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 embed jwk signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "EdDSA" when present"`;
+
+exports[`@partially-generated source signed with ed25519 signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with md5 signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: MD5SignatureToken"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 embed jwk signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "symmetric" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStreamValidator with options "symmetric" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with p256 signer validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedSourceValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "default" on single character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "default" on single chunk stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "ed25519 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "ed25519 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "ed25519 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "ed25519 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "embedded jwk" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "embedded jwk" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "md5" on single character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "md5" on single chunk stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "p256 privkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "p256 privkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "p256 pubkey" on single character stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStreamValidator with options "p256 pubkey" on single chunk stream input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStringValidator with options "p256 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;
+
+exports[`@partially-generated source signed with symmetric signer validated using SignedStringValidator with options "p256 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present"`;

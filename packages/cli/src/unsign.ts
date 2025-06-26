@@ -7,7 +7,7 @@
 
 import { Command } from 'clipanion';
 
-import { StreamSourceSigner } from '@ckwalsh/signedsource';
+import { SignedStreamSigner } from '@ckwalsh/signedsource';
 
 import { TransformCommandBase } from './base.ts';
 
@@ -39,7 +39,7 @@ export class UnsignCommand extends TransformCommandBase {
   protected _getTransformStream(
     input: ReadableStream<string>,
   ): Promise<ReadableStream<string>> {
-    const signer = new StreamSourceSigner();
+    const signer = new SignedStreamSigner();
 
     return Promise.resolve(signer.unsign(input));
   }
