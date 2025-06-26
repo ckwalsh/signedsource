@@ -1,0 +1,1571 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "default" and hasher "neutral" on input "string" can successfully call analyze() 1`] = `
+{
+  "contentHashes": {
+    "md5": "6fde99c7ccfb41abcb26139df27817ec",
+    "sha256": "7ae0733d0dc038ac69b9b36c098bf88e10e41dd3d327f1cc94f4329e1e4f1e17",
+  },
+  "embeddedSignature": {
+    "base64UrlProtectedHeader": "eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiRUMiLCJraWQiOiJqNHVndGQ5M2pZVGJoQXdtc3oyZHdNaktubHRBQU1oMkYwR1JIcnRfMnNjIiwiY3J2IjoiUC0yNTYiLCJhbGciOiJFUzI1NiIsIngiOiJwV09UaVZhUk9KTVNSX3NiREFnelFNdUNPT29TUDZTZWRkUmpTTWRSTk1zIiwieSI6IjA5Z25HQ0xQSVR4bHNnX0oyTGNRWjFNdzcxc1ZxSmxld0NER0xhUFRIQjAifX0",
+    "base64UrlSignature": "SLeY_dAFZRJrVXhv011r5P_dPDWXdFkj8ix_gVOFSkGEvSBKk1YRs4h7zfN2NTOE-ClNXyIyNgGGMAtz0tk9sw",
+    "end": 510,
+    "start": 36,
+    "type": "JwsSignatureToken",
+  },
+  "sourceType": "generated",
+}
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "default" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<6fde99c7ccfb41abcb26139df27817ec>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "default" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiT0tQIiwia2lkIjoiTmVmVk14WVRrOHZDZkhXcExkckRqOUhOZEh0YzdlaTlPOGxXOU4xSnJJcyIsImNydiI6IkVkMjU1MTkiLCJhbGciOiJFZERTQSIsIngiOiJzT1hRUDVmemFYQWlqSmxwcVBmWERKN0l5SG0yaGU4b2ZFd0djTEtQeWZjIn19.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "ed25519" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "ed25519" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "md5" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<6fde99c7ccfb41abcb26139df27817ec>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "md5" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiRUMiLCJraWQiOiJqNHVndGQ5M2pZVGJoQXdtc3oyZHdNaktubHRBQU1oMkYwR1JIcnRfMnNjIiwiY3J2IjoiUC0yNTYiLCJhbGciOiJFUzI1NiIsIngiOiJwV09UaVZhUk9KTVNSX3NiREFnelFNdUNPT29TUDZTZWRkUmpTTWRSTk1zIiwieSI6IjA5Z25HQ0xQSVR4bHNnX0oyTGNRWjFNdzcxc1ZxSmxld0NER0xhUFRIQjAifX0.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOe>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "p256" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "p256" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "symmetric" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJIUzI1NiJ9.StubbedStubbedStubbedStubbedStubbedStubbedS>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" transformed with SignedStringSigner with options "symmetric" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStreamValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStreamValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStreamValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStreamValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStreamValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStreamValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStreamValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStreamValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with jwk embedded in token" validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedSourceAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStreamAnalyzer with options "partially-generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStringAnalyzer with options "default" and hasher "neutral" on input "string" can successfully call analyze() 1`] = `
+{
+  "contentHashes": {
+    "md5": "6fde99c7ccfb41abcb26139df27817ec",
+    "sha256": "7ae0733d0dc038ac69b9b36c098bf88e10e41dd3d327f1cc94f4329e1e4f1e17",
+  },
+  "embeddedSignature": {
+    "base64UrlProtectedHeader": "eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ",
+    "base64UrlSignature": "mstBbzh6vc1J-CxCi17S-4PZSgRF4aRXyXH5tqqnt9EO8yAbWCTgrskRehOq1vgJ1HkAYXfeWWa7kGBu4Ds4QA",
+    "end": 229,
+    "start": 36,
+    "type": "JwsSignatureToken",
+  },
+  "sourceType": "generated",
+}
+`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" analyzed using SignedStringAnalyzer with options "partially-generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "default" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<6fde99c7ccfb41abcb26139df27817ec>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "default" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiT0tQIiwia2lkIjoiTmVmVk14WVRrOHZDZkhXcExkckRqOUhOZEh0YzdlaTlPOGxXOU4xSnJJcyIsImNydiI6IkVkMjU1MTkiLCJhbGciOiJFZERTQSIsIngiOiJzT1hRUDVmemFYQWlqSmxwcVBmWERKN0l5SG0yaGU4b2ZFd0djTEtQeWZjIn19.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "ed25519" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "ed25519" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "md5" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<6fde99c7ccfb41abcb26139df27817ec>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "md5" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiRUMiLCJraWQiOiJqNHVndGQ5M2pZVGJoQXdtc3oyZHdNaktubHRBQU1oMkYwR1JIcnRfMnNjIiwiY3J2IjoiUC0yNTYiLCJhbGciOiJFUzI1NiIsIngiOiJwV09UaVZhUk9KTVNSX3NiREFnelFNdUNPT29TUDZTZWRkUmpTTWRSTk1zIiwieSI6IjA5Z25HQ0xQSVR4bHNnX0oyTGNRWjFNdzcxc1ZxSmxld0NER0xhUFRIQjAifX0.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOe>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "p256" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "p256" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "symmetric" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @generated SignedSource<<eyJhbGciOiJIUzI1NiJ9.StubbedStubbedStubbedStubbedStubbedStubbedS>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" transformed with SignedStringSigner with options "symmetric" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "default" on character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "default" on file stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "embedded jwk" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "embedded jwk" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with standard token" validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "default" on character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "default" on file stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "embedded jwk" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "embedded jwk" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStreamValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "generated file with standard token" validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStringAnalyzer with options "default" and hasher "neutral" on input "string" can successfully call analyze() 1`] = `
+{
+  "contentHashes": {
+    "md5": "137e2289ecc93714e9bb89c0b2789dd9",
+    "sha256": "1df1582cde41a7a58eb1f093f79f70b0bb26e61c0e71c05d55b5eb94dea3cb56",
+  },
+  "embeddedSignature": {
+    "base64UrlProtectedHeader": "eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ",
+    "base64UrlSignature": "pTUzJ1nYRzwIAqaazOUe_P83jFI27zaJ5LF5c5LzkNoEs2txeRkzwufcYf9EKElAQya-LZSNMFa4a12gVh8ebw",
+    "end": 325,
+    "start": 132,
+    "type": "JwsSignatureToken",
+  },
+  "manualSections": {
+    "pets": " */
+const favoritePet = 'cats';
+/* ",
+  },
+  "sourceType": "partially-generated",
+}
+`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "default" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated SignedSource<<137e2289ecc93714e9bb89c0b2789dd9>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "default" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiT0tQIiwia2lkIjoiTmVmVk14WVRrOHZDZkhXcExkckRqOUhOZEh0YzdlaTlPOGxXOU4xSnJJcyIsImNydiI6IkVkMjU1MTkiLCJhbGciOiJFZERTQSIsIngiOiJzT1hRUDVmemFYQWlqSmxwcVBmWERKN0l5SG0yaGU4b2ZFd0djTEtQeWZjIn19.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "ed25519" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "ed25519" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "md5" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated SignedSource<<137e2289ecc93714e9bb89c0b2789dd9>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "md5" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiRUMiLCJraWQiOiJqNHVndGQ5M2pZVGJoQXdtc3oyZHdNaktubHRBQU1oMkYwR1JIcnRfMnNjIiwiY3J2IjoiUC0yNTYiLCJhbGciOiJFUzI1NiIsIngiOiJwV09UaVZhUk9KTVNSX3NiREFnelFNdUNPT29TUDZTZWRkUmpTTWRSTk1zIiwieSI6IjA5Z25HQ0xQSVR4bHNnX0oyTGNRWjFNdzcxc1ZxSmxld0NER0xhUFRIQjAifX0.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOe>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "p256" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "p256" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "symmetric" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJIUzI1NiJ9.StubbedStubbedStubbedStubbedStubbedStubbedS>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" transformed with SignedStringSigner with options "symmetric" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O>> */
+
+const foo = 'bar';
+"
+`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "default" on character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "default" on file stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "embedded jwk" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "embedded jwk" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "default" on character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "default" on file stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "embedded jwk" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "embedded jwk" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStreamValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with early manual section" validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "default" and hasher "neutral" on input "string" can successfully call analyze() 1`] = `
+{
+  "contentHashes": {
+    "md5": "b2e42e793ae28eece8f6d05cae623680",
+    "sha256": "50fc30dce120c4cf45c3349907328563c00405e9400ef57c642df05bac6c6d26",
+  },
+  "embeddedSignature": {
+    "base64UrlProtectedHeader": "eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiRUMiLCJraWQiOiJqNHVndGQ5M2pZVGJoQXdtc3oyZHdNaktubHRBQU1oMkYwR1JIcnRfMnNjIiwiY3J2IjoiUC0yNTYiLCJhbGciOiJFUzI1NiIsIngiOiJwV09UaVZhUk9KTVNSX3NiREFnelFNdUNPT29TUDZTZWRkUmpTTWRSTk1zIiwieSI6IjA5Z25HQ0xQSVR4bHNnX0oyTGNRWjFNdzcxc1ZxSmxld0NER0xhUFRIQjAifX0",
+    "base64UrlSignature": "exDz-CzzOMoyU4qvDbfrnVlo7qUFuRXUGhFwoPCHQecIDOH1km7bkRPv19E8zNANNQf7r0Qiu-GcqdCYlFyxWA",
+    "end": 520,
+    "start": 46,
+    "type": "JwsSignatureToken",
+  },
+  "manualSections": {
+    "pets": " */
+const favoritePet = 'cats';
+/* ",
+  },
+  "sourceType": "partially-generated",
+}
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "default" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<b2e42e793ae28eece8f6d05cae623680>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "default" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiT0tQIiwia2lkIjoiTmVmVk14WVRrOHZDZkhXcExkckRqOUhOZEh0YzdlaTlPOGxXOU4xSnJJcyIsImNydiI6IkVkMjU1MTkiLCJhbGciOiJFZERTQSIsIngiOiJzT1hRUDVmemFYQWlqSmxwcVBmWERKN0l5SG0yaGU4b2ZFd0djTEtQeWZjIn19.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "ed25519" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "ed25519" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "md5" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<b2e42e793ae28eece8f6d05cae623680>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "md5" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiRUMiLCJraWQiOiJqNHVndGQ5M2pZVGJoQXdtc3oyZHdNaktubHRBQU1oMkYwR1JIcnRfMnNjIiwiY3J2IjoiUC0yNTYiLCJhbGciOiJFUzI1NiIsIngiOiJwV09UaVZhUk9KTVNSX3NiREFnelFNdUNPT29TUDZTZWRkUmpTTWRSTk1zIiwieSI6IjA5Z25HQ0xQSVR4bHNnX0oyTGNRWjFNdzcxc1ZxSmxld0NER0xhUFRIQjAifX0.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOe>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "p256" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "p256" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "symmetric" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJIUzI1NiJ9.StubbedStubbedStubbedStubbedStubbedStubbedS>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" transformed with SignedStringSigner with options "symmetric" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStreamValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStreamValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStreamValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStreamValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStreamValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStreamValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStreamValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStreamValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with jwk embedded in token" validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedSourceAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "neutral" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "character stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStreamAnalyzer with options "generated only" and hasher "nodejs" on input "file stream" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStringAnalyzer with options "default" and hasher "neutral" on input "string" can successfully call analyze() 1`] = `
+{
+  "contentHashes": {
+    "md5": "b2e42e793ae28eece8f6d05cae623680",
+    "sha256": "50fc30dce120c4cf45c3349907328563c00405e9400ef57c642df05bac6c6d26",
+  },
+  "embeddedSignature": {
+    "base64UrlProtectedHeader": "eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ",
+    "base64UrlSignature": "K0vmtvZhEEFDeaGJ8qLpO5g3j6w_f6LhtvohS7s-NXBsy39sv2L-qdSDLZdbhFRCTlV7RgPsORmGD_O6KGtpAQ",
+    "end": 239,
+    "start": 46,
+    "type": "JwsSignatureToken",
+  },
+  "manualSections": {
+    "pets": " */
+const favoritePet = 'cats';
+/* ",
+  },
+  "sourceType": "partially-generated",
+}
+`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "neutral" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call analyze() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isGenerated() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" analyzed using SignedStringAnalyzer with options "generated only" and hasher "nodejs" on input "string" fails to call isSigned() 1`] = `"Missing generated tag"`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "default" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<b2e42e793ae28eece8f6d05cae623680>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "default" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiT0tQIiwia2lkIjoiTmVmVk14WVRrOHZDZkhXcExkckRqOUhOZEh0YzdlaTlPOGxXOU4xSnJJcyIsImNydiI6IkVkMjU1MTkiLCJhbGciOiJFZERTQSIsIngiOiJzT1hRUDVmemFYQWlqSmxwcVBmWERKN0l5SG0yaGU4b2ZFd0djTEtQeWZjIn19.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "ed25519 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "ed25519" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "ed25519" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "md5" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<b2e42e793ae28eece8f6d05cae623680>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "md5" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MiLCJqd2siOnsidXNlIjoic2lnIiwia3R5IjoiRUMiLCJraWQiOiJqNHVndGQ5M2pZVGJoQXdtc3oyZHdNaktubHRBQU1oMkYwR1JIcnRfMnNjIiwiY3J2IjoiUC0yNTYiLCJhbGciOiJFUzI1NiIsIngiOiJwV09UaVZhUk9KTVNSX3NiREFnelFNdUNPT29TUDZTZWRkUmpTTWRSTk1zIiwieSI6IjA5Z25HQ0xQSVR4bHNnX0oyTGNRWjFNdzcxc1ZxSmxld0NER0xhUFRIQjAifX0.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "p256 embed jwk" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOe>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "p256" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ.StubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedStubbedSt>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "p256" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmi>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "symmetric" on string input can successfully call sign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated SignedSource<<eyJhbGciOiJIUzI1NiJ9.StubbedStubbedStubbedStubbedStubbedStubbedS>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" transformed with SignedStringSigner with options "symmetric" on string input can successfully call unsign() 1`] = `
+"/* eslint-disable */
+
+/* @partially-generated <<SignedSource::*O*zOeWoEQle#+L!plEphiEmie@IsG*O*zOeWoEQle#+L!plEphiEmie@IsG*O>> */
+
+const foo = 'bar';
+
+/* BEGIN MANUAL SECTION pets */
+const favoritePet = 'cats';
+/* END MANUAL SECTION */
+"
+`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "default" on character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "default" on file stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "embedded jwk" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "embedded jwk" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedSourceValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "default" on character stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "default" on file stream input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "ed25519 privkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "ed25519 privkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "ed25519 pubkey" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "ed25519 pubkey" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "embedded jwk" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "embedded jwk" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "md5" on character stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "md5" on file stream input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "symmetric" on character stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStreamValidator with options "symmetric" on file stream input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStringValidator with options "default" on string input throws on assertIsValid() 1`] = `"All promises were rejected"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStringValidator with options "ed25519 privkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStringValidator with options "ed25519 pubkey" on string input throws on assertIsValid() 1`] = `"Signature validation failed: Invalid key for this operation, its "alg" must be "ES256" when present"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStringValidator with options "embedded jwk" on string input throws on assertIsValid() 1`] = `"Signature validation failed: "jwk" (JSON Web Key) Header Parameter must be a JSON object"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStringValidator with options "md5" on string input throws on assertIsValid() 1`] = `"Invalid Signature type: JwsSignatureToken"`;
+
+exports[`Fixture "partially-generated file with standard token" validated using SignedStringValidator with options "symmetric" on string input throws on assertIsValid() 1`] = `"Signature validation failed: KeyObject instances for asymmetric algorithms must not be of type "secret""`;

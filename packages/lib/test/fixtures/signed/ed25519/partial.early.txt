@@ -4,6 +4,6 @@
 const favoritePet = 'cats';
 /* END MANUAL SECTION */
 
-/* @partially-generated SignedSource<<eyJhbGciOiJFUzI1NiIsImtpZCI6Imo0dWd0ZDkzallUYmhBd21zejJkd01qS25sdEFBTWgyRjBHUkhydF8yc2MifQ.6LuJY0FOTTfgmW6OJT-ONlgtn9haN3ui3SibJQGWqbZStCC13RHDA6Wy2P-ACmsAiOfAEhUnZGUeDiEM9mUbHQ>> */
+/* @partially-generated SignedSource<<eyJhbGciOiJFZERTQSIsImtpZCI6Ik5lZlZNeFlUazh2Q2ZIV3BMZHJEajlITmRIdGM3ZWk5TzhsVzlOMUpySXMifQ.t42cGPvP6zgkrJ5b7z60YiDLVIMvob-iQNVszT0mJWtggLIIccf78jX0uQTZIi53nrZck7-mO3kzv6jZCBdMDw>> */
 
 const foo = 'bar';
