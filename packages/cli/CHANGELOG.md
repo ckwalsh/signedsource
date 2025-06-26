@@ -1,5 +1,13 @@
 # @ckwalsh/signedsource-cli
 
+## 0.4.0
+
+### Patch Changes
+
+- Updated dependencies [f1a28d6]
+- Updated dependencies [f1a28d6]
+  - @ckwalsh/signedsource@0.4.0
+
 ## 0.3.2
 
 ### Patch Changes
@@ -32,7 +40,6 @@
   Rewrote just about everything.
 
   Still not completely satisfied, so not bumping to 1.0.0 yet.
-
   - Update to new lib API
   - Add analyze and sign subcommands
 

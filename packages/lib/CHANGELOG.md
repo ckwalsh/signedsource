@@ -1,5 +1,20 @@
 # @ckwalsh/signedsource
 
+## 0.4.0
+
+### Minor Changes
+
+- f1a28d6: Refactor tests
+
+  Added a bunch of helpers to improve readability and reduce duplication. This
+  increases the number of tests by establishing a better matrix, while spreading
+  the tests out across more files, reducing the size of snapshot files.
+
+- f1a28d6: Refactor file layout to explicit "async" dirs
+
+  This is setup for future work that will add a sync implementation for nodejs,
+  to enable an eslint plugin.
+
 ## 0.3.2
 
 ### Patch Changes
@@ -27,16 +42,13 @@
   Rewrote just about everything.
 
   Still not completely satisfied, so not bumping to 1.0.0 yet.
-
   - Complete API change
   - Complete Implementation change (to streams based)
 
   **Future Work:**
-
   - Synchronous API (NodeJS only)
 
   **Workspace Changes:**
-
   - Deleted eslint workspace package. It will be re-added when I implement the
     synchronous API, since eslint rules don't support async logic.
   - Delete dev workspace package. Now using `@ckwalsh/typescript-dev-configs`
