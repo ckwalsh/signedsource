@@ -9,11 +9,12 @@ import { Command, Option } from 'clipanion';
 import type { JWK } from 'jose';
 import fs from 'node:fs/promises';
 
-import type { ContentVerifierIf } from '@ckwalsh/signedsource';
+import type { SignedContentValidatorIf } from '@ckwalsh/signedsource';
 import {
-  DEFAULT_CONTENT_VERIFIER,
-  JWSContentVerifier,
-  StreamSourceAnalyzer,
+  DefaultSignedContentValidator,
+  JwsSignedContentValidator,
+  MultiplexSignedContentValidator,
+  SignedStreamValidator,
 } from '@ckwalsh/signedsource';
 
 import { SignedSourceCommandBase } from './base.ts';
@@ -71,18 +72,30 @@ export class VerifyCommand extends SignedSourceCommandBase {
   async execute() {
     const input = await this._getInputStream();
 
-    const verifiers: ContentVerifierIf[] = await Promise.all(
-      this.jwkPath.map(async (jwkPath) => {
-        const key = JSON.parse(await fs.readFile(jwkPath, 'utf-8')) as JWK;
-        return new JWSContentVerifier({ key });
-      }),
-    );
+    let validator = undefined;
 
-    if (verifiers.length === 0 || this.insecure) {
-      verifiers.push(DEFAULT_CONTENT_VERIFIER);
+    if (this.jwkPath.length > 0) {
+      const validators: SignedContentValidatorIf[] = await Promise.all(
+        this.jwkPath.map(async (jwkPath) => {
+          const rawJson = await fs.readFile(jwkPath, 'utf-8');
+          const key = JSON.parse(rawJson) as JWK;
+          return new JwsSignedContentValidator({ key });
+        }),
+      );
+
+      if (this.insecure) {
+        validators.push(new DefaultSignedContentValidator());
+      }
+
+      if (validators.length === 1) {
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        validator = validators[0]!;
+      } else {
+        validator = new MultiplexSignedContentValidator({ validators });
+      }
     }
 
-    const analyzer = new StreamSourceAnalyzer({ verifiers });
+    const analyzer = new SignedStreamValidator({ validator });
 
     if (this.quiet) {
       try {
