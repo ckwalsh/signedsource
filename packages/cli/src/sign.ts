@@ -9,10 +9,10 @@ import { Command, Option } from 'clipanion';
 import type { JWK } from 'jose';
 import fs from 'node:fs/promises';
 
-import type { TransformOptions } from '@ckwalsh/signedsource';
+import type { SignedSourceSignerOptions } from '@ckwalsh/signedsource';
 import {
-  StreamSourceSigner,
-  createJWSContentSigner,
+  SignedStreamSigner,
+  createJwsContentSigner,
 } from '@ckwalsh/signedsource';
 
 import { TransformCommandBase } from './base.ts';
@@ -66,18 +66,18 @@ export class SignCommand extends TransformCommandBase {
   protected async _getTransformStream(
     input: ReadableStream<string>,
   ): Promise<ReadableStream<string>> {
-    const options: TransformOptions = {};
+    const options: Partial<SignedSourceSignerOptions> = {};
 
     if (this.jwkPath) {
       const key = JSON.parse(await fs.readFile(this.jwkPath, 'utf-8')) as JWK;
-      const signer = await createJWSContentSigner({
+      const signer = await createJwsContentSigner({
         key,
         embedJWK: this.embedJWK,
       });
       options.signer = signer;
     }
 
-    const signer = new StreamSourceSigner();
+    const signer = new SignedStreamSigner();
 
     return signer.sign(input, options);
   }

@@ -58,7 +58,7 @@
     "knip": "pnpm run -w knip -W $(realpath --relative-to ../../ .)",
     "lint": "pnpm run -w lint $(realpath --relative-to ../../ .)",
     "lint:fix": "pnpm run -w lint:fix $(realpath --relative-to ../../ .)",
-    "test": "pnpm run -w test --roots $(realpath --relative-to ../../ .)",
+    "test": "pnpm run -w test --roots $(realpath --relative-to ../../ .) --",
     "tsc": "tsc --build",
     "tsc:watch": "tsc --build --watch",
     "prepare": "pnpm --silent run clean && tsup --silent"

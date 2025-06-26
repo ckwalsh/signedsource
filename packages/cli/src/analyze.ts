@@ -7,7 +7,7 @@
 
 import { Command } from 'clipanion';
 
-import { StreamSourceAnalyzer } from '@ckwalsh/signedsource';
+import { SignedStreamAnalyzer } from '@ckwalsh/signedsource';
 
 import { SignedSourceCommandBase } from './base.ts';
 
@@ -31,7 +31,7 @@ export class AnalyzeCommand extends SignedSourceCommandBase {
   async execute() {
     const input = await this._getInputStream();
 
-    const analyzer = new StreamSourceAnalyzer();
+    const analyzer = new SignedStreamAnalyzer();
 
     const analysis = await analyzer.analyze(input);
 
