@@ -82,7 +82,7 @@
     "@types/node": "catalog:",
     "knip": "catalog:",
     "tsup": "catalog:",
-    "typedoc": "^0.28.5",
+    "typedoc": "^0.28.10",
     "typescript": "catalog:"
   }
 }
