@@ -44,7 +44,7 @@
     "@ckwalsh/typescript-dev-configs": "catalog:",
     "@tsconfig/node": "catalog:",
     "@types/node": "catalog:",
-    "eslint": "^9.33.0",
+    "eslint": "^9.34.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "husky": "^9.1.7",
     "jest": "catalog:",
