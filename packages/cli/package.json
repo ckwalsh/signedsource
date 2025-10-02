@@ -48,7 +48,7 @@
   "devDependencies": {
     "@ckwalsh/typescript-dev-configs": "catalog:",
     "@types/node": "catalog:",
-    "jose": "^6.0.11",
+    "jose": "^6.1.0",
     "knip": "catalog:",
     "tsup": "catalog:",
     "typescript": "catalog:"
