@@ -39,18 +39,18 @@
   "type": "module",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
-    "@changesets/cli": "^2.29.7",
+    "@changesets/cli": "^2.29.8",
     "@ckwalsh/prettier-plugin-sort-imports": "^5.2.3",
     "@ckwalsh/typescript-dev-configs": "catalog:",
     "@tsconfig/node": "catalog:",
     "@types/node": "catalog:",
-    "eslint": "^9.35.0",
+    "eslint": "^9.39.1",
     "eslint-import-resolver-typescript": "^4.4.4",
     "husky": "^9.1.7",
     "jest": "catalog:",
     "knip": "catalog:",
-    "lint-staged": "^16.1.6",
-    "prettier": "^3.6.2",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.3",
     "ts-jest": "catalog:",
     "typescript": "catalog:"
   }
